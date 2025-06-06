@@ -68,7 +68,7 @@ export const inverterTypes: { id: InverterType; name: string }[] = [
   { id: 'non-inverter', name: 'Non-Inverter AC' }
 ];
 
-export const tonnageOptions = ['1.0T', '1.14T', '1.5T', '2.0T', '2.5T', '3.0T'];
+export const tonnageOptions = ['0.8T', '1.0T', '1.1T', '1.14T', '1.3T', '1.5T', '1.6T', '1.8T', '1.95T', '2.0T', '2.1T', '2.2T', '2.5T', '2.6T', '3.0T', '3.5T', '3.55T', '3.6T', '4.0T', '4.12T'];
 export const starRatings = ['1★', '2★', '3★', '4★', '5★'];
 
 // This is just a subset of the data for example purposes
@@ -2634,9 +2634,15 @@ export const acProducts: ACProduct[] = [
     'Dual Inverter Compressor',
     'Low Noise Operation'
   ],
-  image: "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
+  image: "/lovable-uploads/lg/US-Q14ENZE/US-Q14ENZE.avif",
   images: [
-    "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png"
+    "/lovable-uploads/lg/US-Q14ENZE/US-Q14ENZE.avif",
+    "/lovable-uploads/lg/US-Q14ENZE/1.avif",
+    "/lovable-uploads/lg/US-Q14ENZE/2.avif",
+    "/lovable-uploads/lg/US-Q14ENZE/3.webp",
+    "/lovable-uploads/lg/US-Q14ENZE/4.jpg",
+    "/lovable-uploads/lg/US-Q14ENZE/5.avif",
+    "/lovable-uploads/lg/US-Q14ENZE/6.avif",
   ],
   description: 'LG 1.0T Inverter 5 Star Split AC with advanced cooling technology'
 },
@@ -3758,6 +3764,749 @@ export const acProducts: ACProduct[] = [
     "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
   ],
   description: 'Vestar 2.0T Non-Inverter 2 Star Split AC for large rooms with reliable cooling'
+},
+
+// O GENERAL AC Products
+{
+  id: 'o-general-split-1t-inv-5star-12cgtb',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.0T',
+  starRating: '5★',
+  modelNumber: '12CGTB',
+  price: 50200,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-1t-inv-5star-12cgaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.0T',
+  starRating: '5★',
+  modelNumber: '12CGAA',
+  price: 50200,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-1t-inv-3star-12cpaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.0T',
+  starRating: '3★',
+  modelNumber: '12CPAA',
+  price: 39790,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
+},
+{
+  id: 'o-general-split-1t-inv-3star-12cpab',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.0T',
+  starRating: '3★',
+  modelNumber: '12CPAB',
+  price: 39790,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
+},
+{
+  id: 'o-general-split-1.14t-non-inv-3star-14bmaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'non-inverter',
+  tonnage: '1.14T',
+  starRating: '3★',
+  modelNumber: '14BMAA',
+  price: 42150,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.14T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'o-general-split-1.5t-inv-5star-18cgtb',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.5T',
+  starRating: '5★',
+  modelNumber: '18CGTB',
+  price: 63490,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.5T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-1.5t-inv-5star-18cgaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.5T',
+  starRating: '5★',
+  modelNumber: '18CGAA',
+  price: 63490,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.5T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-1.5t-inv-5star-18cetb',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.5T',
+  starRating: '5★',
+  modelNumber: '18CETB',
+  price: 67250,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis',
+    'Premium Model'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.5T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-1.5t-inv-3star-18cpab',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.5T',
+  starRating: '3★',
+  modelNumber: '18CPAB',
+  price: 50210,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
+},
+{
+  id: 'o-general-split-1.5t-inv-3star-18cnaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '1.5T',
+  starRating: '3★',
+  modelNumber: '18CNAA',
+  price: 47390,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
+},
+{
+  id: 'o-general-split-1.5t-non-inv-3star-18bmaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'non-inverter',
+  tonnage: '1.5T',
+  starRating: '3★',
+  modelNumber: '18BMAA',
+  price: 53050,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'o-general-split-1.5t-non-inv-3star-18buta',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'non-inverter',
+  tonnage: '1.5T',
+  starRating: '3★',
+  modelNumber: '18BUTA',
+  price: 57790,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient',
+    'Premium Model'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'o-general-split-2t-inv-5star-24cgtb',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '2.0T',
+  starRating: '5★',
+  modelNumber: '24CGTB',
+  price: 77690,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-2t-inv-5star-24ggaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '2.0T',
+  starRating: '5★',
+  modelNumber: '24GGAA',
+  price: 77690,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-2t-inv-5star-24ceta',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '2.0T',
+  starRating: '5★',
+  modelNumber: '24CETA',
+  price: 81450,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis',
+    'Premium Model'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'o-general-split-2t-inv-3star-24cpaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '2.0T',
+  starRating: '3★',
+  modelNumber: '24CPAA',
+  price: 63428,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.0T Inverter 3 Star Split AC with energy-efficient cooling'
+},
+{
+  id: 'o-general-split-2t-inv-3star-24cpab',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '2.0T',
+  starRating: '3★',
+  modelNumber: '24CPAB',
+  price: 63428,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.0T Inverter 3 Star Split AC with energy-efficient cooling'
+},
+{
+  id: 'o-general-split-2t-non-inv-3star-24bmaa',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'non-inverter',
+  tonnage: '2.0T',
+  starRating: '3★',
+  modelNumber: '24BMAA',
+  price: 67250,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.0T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'o-general-split-2t-non-inv-3star-24buta',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'non-inverter',
+  tonnage: '2.0T',
+  starRating: '3★',
+  modelNumber: '24BUTA',
+  price: 72000,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient',
+    'Premium Model'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.0T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'o-general-split-2.5t-inv-4star-30ceb',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '2.5T',
+  starRating: '4★',
+  modelNumber: '30CEB',
+  price: 102310,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis',
+    'High Capacity Cooling'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 2.5T Inverter 4 Star Split AC with premium features for large spaces'
+},
+{
+  id: 'o-general-split-3t-inv-5star-36ceb',
+  type: 'split',
+  brand: 'o-general',
+  inverter: 'inverter',
+  tonnage: '3.0T',
+  starRating: '5★',
+  modelNumber: '36CEB',
+  price: 123190,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis',
+    'High Capacity Cooling'
+  ],
+  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
+  images: [
+    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+  ],
+  description: 'O GENERAL 3.0T Inverter 5 Star Split AC with premium features for large spaces'
+},
+
+// MITSUBISHI HEAVY INDUSTRIES AC Products
+{
+  id: 'mitsubishi-heavy-1.1t-inv-5star-srk13yxs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '1.1T',
+  starRating: '5★',
+  modelNumber: 'SRK13YXS',
+  price: 54040,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.1T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'mitsubishi-heavy-1t-inv-3star-srk13yym',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '1.0T',
+  starRating: '3★',
+  modelNumber: 'SRK13YYM',
+  price: 49200,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
+},
+{
+  id: 'mitsubishi-heavy-1.1t-non-inv-2star-srk13crs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.1T',
+  starRating: '2★',
+  modelNumber: 'SRK13CRS',
+  price: 47440,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.1T Non-Inverter 2 Star Split AC with reliable cooling'
+},
+{
+  id: 'mitsubishi-heavy-1.3t-non-inv-2star-srk15cxs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.3T',
+  starRating: '2★',
+  modelNumber: 'SRK15CXS',
+  price: 49640,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.3T Non-Inverter 2 Star Split AC with reliable cooling'
+},
+{
+  id: 'mitsubishi-heavy-1.6t-non-inv-3star-srk20cxs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.6T',
+  starRating: '3★',
+  modelNumber: 'SRK20CXS',
+  price: 59760,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.6T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'mitsubishi-heavy-1.6t-non-inv-3star-srk20css',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.6T',
+  starRating: '3★',
+  modelNumber: 'SRK20CSS',
+  price: 61520,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient',
+    'Premium Model'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.6T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'mitsubishi-heavy-1.8t-inv-5star-srk20yym',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '1.8T',
+  starRating: '5★',
+  modelNumber: 'SRK20YYM',
+  price: 75160,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.8T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'mitsubishi-heavy-1.95t-non-inv-2star-srk24cw',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.95T',
+  starRating: '2★',
+  modelNumber: 'SRK24CW',
+  price: 69000,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.95T Non-Inverter 2 Star Split AC with reliable cooling'
+},
+{
+  id: 'mitsubishi-heavy-1.95t-non-inv-3star-srk25cwx',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.95T',
+  starRating: '3★',
+  modelNumber: 'SRK25CWX',
+  price: 74280,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient',
+    'Premium Model'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.95T Non-Inverter 3 Star Split AC with reliable cooling'
+},
+{
+  id: 'mitsubishi-heavy-2.1t-inv-4star-srk24yym',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '2.1T',
+  starRating: '4★',
+  modelNumber: 'SRK24YYM',
+  price: 90991,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 2.1T Inverter 4 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'mitsubishi-heavy-2.2t-inv-5star-srk24yvs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '2.2T',
+  starRating: '5★',
+  modelNumber: 'SRK24YVS',
+  price: 101560,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis',
+    'Premium Model'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 2.2T Inverter 5 Star Split AC with premium features for enhanced comfort'
+},
+{
+  id: 'mitsubishi-heavy-2.2t-non-inv-2star-srk24yvs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '2.2T',
+  starRating: '2★',
+  modelNumber: 'SRK24YVS',
+  price: 77800,
+  features: [
+    'Fixed Speed Compressor',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Efficient'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 2.2T Non-Inverter 2 Star Split AC with reliable cooling'
+},
+{
+  id: 'mitsubishi-heavy-3t-inv-4star-srk100ya',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '3.0T',
+  starRating: '4★',
+  modelNumber: 'SRK100YA',
+  price: 136760,
+  features: [
+    'Digital Inverter Technology',
+    'Plasma Air Purifier',
+    'Auto Restart',
+    'Sleep Mode',
+    'Smart Diagnosis',
+    'High Capacity Cooling'
+  ],
+  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
+  images: [
+    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+  ],
+  description: 'MITSUBISHI HEAVY 3.0T Inverter 4 Star Split AC with premium features for large spaces'
 }
 ];
 
