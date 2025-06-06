@@ -1436,12 +1436,12 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK13CRS',
   price: 47440,
   features: ['Non-Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/1.png',
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/2.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/3.avif",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/4.webp"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/1.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/3.avif",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/4.webp"
   ],
   description: 'MITSUBISHI HEAVY 1.1T NON INV 2★ SRK13CRS Split AC'
 },
@@ -2161,11 +2161,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.webp",
+    
   ],
   description: 'MITSUBISHI HEA 1.3T NON INV 2*SRK15CXS with reliable cooling performance'
 },
@@ -2185,211 +2185,22 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/2.avif",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/3.webp"
   ],
   description: 'MITSUBISHI HEA 1.6T NON INV 3*SRK20CXS with reliable cooling performance'
 },
-{
-  id: 'mhi-split-1-6t-noninv-3star-srk20css',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.6T',
-  starRating: '3★',
-  modelNumber: 'SRK20CSS',
-  price: 61520,
-  features: [
-    'Non-Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode',
-    'Premium Design'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBISHI HEA 1.6T NON INV 3*SRK20CSS with reliable cooling performance'
-},
-{
-  id: 'mhi-split-1-8t-inv-5star-srk20yym',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '1.8T',
-  starRating: '5★',
-  modelNumber: 'SRK20YYM',
-  price: 75160,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode',
-    'Premium Design',
-    'Allergen Clear Filter'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.8T INV 5* SRK20YYM with premium features for enhanced comfort'
-},
-{
-  id: 'mhi-split-1-95t-noninv-2star-srk24cw',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.95T',
-  starRating: '2★',
-  modelNumber: 'SRK24CW',
-  price: 69000,
-  features: [
-    'Non-Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBI HEAV 1.95T NON INV 2* SRK24CW with reliable cooling performance'
-},
-{
-  id: 'mhi-split-1-95t-noninv-3star-srk25cwx',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.95T',
-  starRating: '3★',
-  modelNumber: 'SRK25CWX',
-  price: 74280,
-  features: [
-    'Non-Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode',
-    'Premium Design'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBI HEA 1.95T NON INV 3* SRK25CWX with reliable cooling performance'
-},
-{
-  id: 'mhi-split-2-1t-inv-4star-srk24yym',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '2.1T',
-  starRating: '4★',
-  modelNumber: 'SRK24YYM',
-  price: 90991,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode',
-    'Premium Design',
-    'Allergen Clear Filter'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBISHI HEAVY 2.1T INV 4* SRK24YYM with premium features for enhanced comfort'
-},
-{
-  id: 'mhi-split-2-2t-inv-5star-srk24yvs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '2.2T',
-  starRating: '5★',
-  modelNumber: 'SRK24YVS',
-  price: 101560,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode',
-    'Premium Design',
-    'Allergen Clear Filter',
-    'Smart Diagnosis'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBISHI HEAVY 2.2T INV 5* SRK24YVS with premium features for enhanced comfort'
-},
-{
-  id: 'mhi-split-2-2t-noninv-2star-srk24yvs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '2.2T',
-  starRating: '2★',
-  modelNumber: 'SRK24YVS',
-  price: 77800,
-  features: [
-    'Non-Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBISHI HEA 2.2T NON INV 2*SRK24YVS with reliable cooling performance'
-},
-{
-  id: 'mhi-split-3-0t-inv-4star-srk100ya',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '3.0T',
-  starRating: '4★',
-  modelNumber: 'SRK100YA',
-  price: 136760,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Saving Mode',
-    'Premium Design',
-    'Allergen Clear Filter',
-    'Smart Diagnosis',
-    'High Capacity Cooling'
-  ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-  images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
-  ],
-  description: 'MITSUBISHI HEAVY 3.0T INV 4* SRK100YA with premium features for enhanced comfort'
-},
+
+
+
+
+
+
+
+
 {
   id: 'me-split-1-0t-inv-5star-gr13vf',
   type: 'split',
@@ -2407,11 +2218,11 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Plasma Air Purifier'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/2.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/3.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 5* GR13VF with premium features for enhanced comfort'
 },
@@ -2433,11 +2244,11 @@ export const acProducts: ACProduct[] = [
     'Plasma Air Purifier',
     'Wi-Fi Connectivity'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/2.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/3.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 5* GR13VFT with premium features and Wi-Fi connectivity'
 },
@@ -2480,11 +2291,10 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JX13VF/1.webp",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX13VF/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX13VF/2.webp",
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 3* JX13VF with reliable cooling performance'
 },
@@ -2503,11 +2313,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JP13VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP13VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP13VF/2.webp",
+    
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 2* JP13VF with reliable cooling performance'
 },
@@ -2526,11 +2336,13 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/2.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/3.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/4.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/5.png",
   ],
   description: 'MITSUBISHI ELEC 1.0T NON INV 3* AGZ13VF with reliable cooling performance'
 },
@@ -2549,11 +2361,12 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ13VF/1.webp",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/4.webp"
   ],
   description: 'MITSUBISHI ELEC 1.0T NON INV 2* AJZ13VF with reliable cooling performance'
 },
@@ -2574,11 +2387,12 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Plasma Air Purifier'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/4.webp"
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 5* GR18VF with premium features for enhanced comfort'
 },
@@ -2600,11 +2414,11 @@ export const acProducts: ACProduct[] = [
     'Plasma Air Purifier',
     'Wi-Fi Connectivity'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VFT/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VFT/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VFT/2.webp",
+    
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 5* GR18VFT with premium features and Wi-Fi connectivity'
 },
@@ -2624,11 +2438,10 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GN18VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN18VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN18VF/2.webp",
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 4* GN18VF with premium features for enhanced comfort'
 },
@@ -2647,11 +2460,10 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JX18VF/1.webp",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX18VF/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX18VF/2.webp",
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 3* JX18VF with reliable cooling performance'
 },
@@ -2670,11 +2482,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JP18VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP18VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP18VF/2.webp",
+    
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 2* JP18VF with reliable cooling performance'
 },
@@ -2693,11 +2505,12 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/1.webp",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/2.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/3.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/4.png"
   ],
   description: 'MITSUBISHI ELEC 1.5T NON INV 3* AGZ18VF with reliable cooling performance'
 },
@@ -2716,11 +2529,13 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/1.webp",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/4.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/5.webp"
   ],
   description: 'MITSUBISHI ELEC 1.5T NON INV 2* AJZ18VF with reliable cooling performance'
 },
@@ -2741,11 +2556,13 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Plasma Air Purifier'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/4.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/5.webp"
   ],
   description: 'MITSUBISHI ELECTRIC 1.9T INV 5* GR22VF with premium features for enhanced comfort'
 },
@@ -2791,11 +2608,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GN22VF/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN22VF/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN22VF/2.webp",
+    
   ],
   description: 'MITSUBISHI ELECTRIC 1.9T INV 4* GN22VF with premium features for enhanced comfort'
 },
