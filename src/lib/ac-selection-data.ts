@@ -916,12 +916,15 @@ export const acProducts: ACProduct[] = [
     modelNumber: 'GLW12C3XWSEW',
     price: 27738,
     features: ['Energy efficient', 'Turbo mode'],
-    image: '/lovable-uploads/lloyd-window.png',
+    image: '/lovable-uploads/lloyd/GLS12C3XWADS/1.avif',
     images: [
-      "/lovable-uploads/20t20c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-      "/lovable-uploads/21u21c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-      "/lovable-uploads/22v22c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-      "/lovable-uploads/23w23c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
+      '/lovable-uploads/lloyd/GLS12C3XWADS/1.avif',
+      '/lovable-uploads/lloyd/GLS12C3XWADS/2.jpg',
+      '/lovable-uploads/lloyd/GLS12C3XWADS/3.jpg',
+      '/lovable-uploads/lloyd/GLS12C3XWADS/4.jpg',
+      '/lovable-uploads/lloyd/GLS12C3XWADS/5.jpg',
+      '/lovable-uploads/lloyd/GLS12C3XWADS/6.webp',
+      '/lovable-uploads/lloyd/GLS12C3XWADS/7.webp'
     ],
     description: 'LLOYD 1.0T NON INV 3★ GLW12C3XWSEW Window AC'
   },
