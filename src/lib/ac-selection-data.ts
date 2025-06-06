@@ -403,12 +403,12 @@ export const acProducts: ACProduct[] = [
     modelNumber: 'AE13',
     price: 29800,
     features: ['Reliable performance', 'Energy saving'],
-    image: '/lovable-uploads/mitsubishi-akabishi-window.png',
+    image: '/lovable-uploads/mitsubishi/mitsubishi_elec_AKABISHI/AE13VG/1.png',
     images: [
-      "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png",
-      "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
-      "/lovable-uploads/1a4210eb-3a20-4fd7-9983-a8b981ece7a8.png",
-      "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
+      "/lovable-uploads/mitsubishi/mitsubishi_elec_AKABISHI/AE13VG/1.png",
+      "/lovable-uploads/mitsubishi/mitsubishi_elec_AKABISHI/AE13VG/2.webp",
+      "/lovable-uploads/mitsubishi/mitsubishi_elec_AKABISHI/AE13VG/3.webp",
+     
     ],
     description: 'MITSUBISHI AKABISHI 1.0T NON INV 3★ AE13 Window AC'
   },
@@ -422,11 +422,11 @@ export const acProducts: ACProduct[] = [
     modelNumber: 'AE18SG',
     price: 31800,
     features: ['Powerful cooling', 'Durable'],
-    image: '/lovable-uploads/mitsubishi-akabishi-window.png',
+    image: '/lovable-uploads/mitsubishi/mitsubishi_elec_AKABISHI/AE18VG/1.png',
     images: [
-      "/lovable-uploads/31389003-e760-4a88-b98d-1952c74143ec.png",
-      "/lovable-uploads/32b80bca-8b8e-4aac-8316-76596978bb51.png",
-      "/lovable-uploads/43b71c61-896e-4271-a7b2-a9a165a9f892.png"
+      "/lovable-uploads/mitsubishi/mitsubishi_elec_AKABISHI/AE18VG/1.png",
+      "/lovable-uploads/mitsubishi/mitsubishi_elec_AKABISHI/AE18VG/2.webp",
+    
     ],
     description: 'MITSUBISHI AKABISHI 1.5T NON INV 3★ AE18SG Window AC'
   },
