@@ -1397,7 +1397,7 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK13YXS',
   price: 54040,
   features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.webp',
   images: [
     "/lovable-uploads/mh1-1-5star-1.png",
     "/lovable-uploads/mh1-1-5star-2.png",
@@ -1416,13 +1416,13 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK13YYM',
   price: 49200,
   features: ['Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.webp',
   images: [
-    "/lovable-uploads/mh1-0-3star-1.png",
-    "/lovable-uploads/mh1-0-3star-2.png",
-    "/lovable-uploads/mh1-0-3star-3.png",
-    "/lovable-uploads/mh1-0-3star-4.png",
-    "/lovable-uploads/mh1-0-3star-5.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/4.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/5.webp"
   ],
   description: 'MITSUBISHI HEAVY 1.0T INV 3★ SRK13YYM Split AC'
 },
@@ -1436,11 +1436,12 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK13CRS',
   price: 47440,
   features: ['Non-Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.png',
   images: [
-    "/lovable-uploads/mh1-1-2star-1.png",
-    "/lovable-uploads/mh1-1-2star-2.png",
-    "/lovable-uploads/mh1-1-2star-3.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/3.avif",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/4.webp"
   ],
   description: 'MITSUBISHI HEAVY 1.1T NON INV 2★ SRK13CRS Split AC'
 },
@@ -1454,12 +1455,10 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK15CXS',
   price: 49640,
   features: ['Non-Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/1.png',
   images: [
-    "/lovable-uploads/mh1-3-2star-1.png",
-    "/lovable-uploads/mh1-3-2star-2.png",
-    "/lovable-uploads/mh1-3-2star-3.png",
-    "/lovable-uploads/mh1-3-2star-4.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.webp"
   ],
   description: 'MITSUBISHI HEAVY 1.3T NON INV 2★ SRK15CXS Split AC'
 },
@@ -1473,13 +1472,12 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK20CXS',
   price: 59760,
   features: ['Non-Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp',
   images: [
-    "/lovable-uploads/mh1-6-3star-1.png",
-    "/lovable-uploads/mh1-6-3star-2.png",
-    "/lovable-uploads/mh1-6-3star-3.png",
-    "/lovable-uploads/mh1-6-3star-4.png",
-    "/lovable-uploads/mh1-6-3star-5.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/2.avif",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/3.webp",
+  
   ],
   description: 'MITSUBISHI HEAVY 1.6T NON INV 3★ SRK20CXS Split AC'
 },
@@ -1493,12 +1491,12 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK20CSS',
   price: 61520,
   features: ['Non-Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/1.webp',
   images: [
-    "/lovable-uploads/mh1-6-3star-css-1.png",
-    "/lovable-uploads/mh1-6-3star-css-2.png",
-    "/lovable-uploads/mh1-6-3star-css-3.png",
-    "/lovable-uploads/mh1-6-3star-css-4.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/3.webp",
+   
   ],
   description: 'MITSUBISHI HEAVY 1.6T NON INV 3★ SRK20CSS Split AC'
 },
@@ -1512,13 +1510,11 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK20YYM',
   price: 75160,
   features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20YYM/1.jpg',
   images: [
-    "/lovable-uploads/mh1-8-5star-1.png",
-    "/lovable-uploads/mh1-8-5star-2.png",
-    "/lovable-uploads/mh1-8-5star-3.png",
-    "/lovable-uploads/mh1-8-5star-4.png",
-    "/lovable-uploads/mh1-8-5star-5.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20YYM/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20YYM/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20YYM/3.webp",
   ],
   description: 'MITSUBISHI HEAVY 1.8T INV 5★ SRK20YYM Split AC'
 },
@@ -1532,12 +1528,12 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK24CW',
   price: 69000,
   features: ['Non-Inverter', 'Large capacity'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24CW/1.png',
   images: [
-    "/lovable-uploads/mh1-95-2star-1.png",
-    "/lovable-uploads/mh1-95-2star-2.png",
-    "/lovable-uploads/mh1-95-2star-3.png",
-    "/lovable-uploads/mh1-95-2star-4.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24CW/1.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24CW/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24CW/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24CW/4.webp"
   ],
   description: 'MITSUBISHI HEAVY 1.95T NON INV 2★ SRK24CW Split AC'
 },
@@ -1551,13 +1547,13 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK25CWX',
   price: 74280,
   features: ['Non-Inverter', 'Large capacity'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK25CWX/1.jpg',
   images: [
-    "/lovable-uploads/mh1-95-3star-1.png",
-    "/lovable-uploads/mh1-95-3star-2.png",
-    "/lovable-uploads/mh1-95-3star-3.png",
-    "/lovable-uploads/mh1-95-3star-4.png",
-    "/lovable-uploads/mh1-95-3star-5.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK25CWX/1.jpg",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK25CWX/2.avif",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK25CWX/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK25CWX/4.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK25CWX/5.avif"
   ],
   description: 'MITSUBISHI HEAVY 1.95T NON INV 3★ SRK25CWX Split AC'
 },
@@ -1571,12 +1567,10 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK24YYM',
   price: 90991,
   features: ['Inverter', 'Large capacity'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YYM/SRK24YYM.webp',
   images: [
-    "/lovable-uploads/mh2-1-4star-1.png",
-    "/lovable-uploads/mh2-1-4star-2.png",
-    "/lovable-uploads/mh2-1-4star-3.png",
-    "/lovable-uploads/mh2-1-4star-4.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YYM/SRK24YYM.webp",
+  
   ],
   description: 'MITSUBISHI HEAVY 2.1T INV 4★ SRK24YYM Split AC'
 },
@@ -1590,13 +1584,13 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK24YVS',
   price: 101560,
   features: ['Inverter', 'Large capacity'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/1.png',
   images: [
-    "/lovable-uploads/mh2-2-5star-1.png",
-    "/lovable-uploads/mh2-2-5star-2.png",
-    "/lovable-uploads/mh2-2-5star-3.png",
-    "/lovable-uploads/mh2-2-5star-4.png",
-    "/lovable-uploads/mh2-2-5star-5.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/1.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/3.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/4.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/5.jpg"
   ],
   description: 'MITSUBISHI HEAVY 2.2T INV 5★ SRK24YVS Split AC'
 },
@@ -1610,12 +1604,12 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK24YVS',
   price: 77800,
   features: ['Non-Inverter', 'Large capacity'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/1.png',
   images: [
-    "/lovable-uploads/mh2-2-2star-1.png",
-    "/lovable-uploads/mh2-2-2star-2.png",
-    "/lovable-uploads/mh2-2-2star-3.png",
-    "/lovable-uploads/mh2-2-2star-4.png"
+    '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/1.png',
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/3.png",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK24YVS/4.png"
   ],
   description: 'MITSUBISHI HEAVY 2.2T NON INV 2★ SRK24YVS Split AC'
 },
@@ -1629,13 +1623,11 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK100YA',
   price: 136760,
   features: ['Inverter', 'Large capacity'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK100YA/1.webp",
   images: [
-    "/lovable-uploads/mh3-0-4star-1.png",
-    "/lovable-uploads/mh3-0-4star-2.png",
-    "/lovable-uploads/mh3-0-4star-3.png",
-    "/lovable-uploads/mh3-0-4star-4.png",
-    "/lovable-uploads/mh3-0-4star-5.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK100YA/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK100YA/1.webp",
+  
   ],
   description: 'MITSUBISHI HEAVY 3.0T INV 4★ SRK100YA Split AC'
 },
@@ -2123,11 +2115,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Allergen Clear Filter'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.webp",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+     "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.webp",
+     "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/2.webp",
+     "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/3.webp"
   ],
   description: 'MITSUBISHI HEAVY 1.0T INV 3* SRK13YYM with reliable cooling performance'
 },
