@@ -192,13 +192,13 @@ export const acProducts: ACProduct[] = [
       'Smart Diagnosis',
       '4-Way Swing'
     ],
-    image: "public/lovable-uploads/31389003-e760-4a88-b98d-1952c74143ec.png",
+    image: "/lovable-uploads/lg/US-Q19BNZE/1.avif",
     images: [
-      "public/lovable-uploads/31389003-e760-4a88-b98d-1952c74143ec.png",
-      "public/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
-      "public/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-      "public/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-      "public/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
+      "/lovable-uploads/lg/US-Q19BNZE/1.avif",
+      "/lovable-uploads/lg/US-Q19BNZE/2.avif",
+      "/lovable-uploads/lg/US-Q19BNZE/3.avif",
+      "/lovable-uploads/lg/US-Q19BNZE/4.avif",
+      
     ],
     description: 'LG 1.5T INV 5* US-Q19BNZE with AI technology and superior cooling'
   },
@@ -2661,9 +2661,13 @@ export const acProducts: ACProduct[] = [
     'Auto Clean',
     'Low Noise Operation'
   ],
-  image: "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
+  image: "/lovable-uploads/lg/US-Q12CNXE/1.jpg",
   images: [
-    "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png"
+    "/lovable-uploads/lg/US-Q12CNXE/1.jpg",
+    "/lovable-uploads/lg/US-Q12CNXE/2.avif",
+    "/lovable-uploads/lg/US-Q12CNXE/3.avif"
+    
+
   ],
   description: 'LG 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
 },
@@ -2706,9 +2710,19 @@ export const acProducts: ACProduct[] = [
     'Auto Clean',
     'Low Noise Operation'
   ],
-  image: "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
+  image: "/lovable-uploads/lg/US-Q19FWZE/1.avif",
   images: [
-    "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png"
+    "/lovable-uploads/lg/US-Q19FWZE/1.avif",
+    "/lovable-uploads/lg/US-Q19FWZE/2.jpg",
+    "/lovable-uploads/lg/US-Q19FWZE/3.jpg",
+    "/lovable-uploads/lg/US-Q19FWZE/4.jpg",
+    "/lovable-uploads/lg/US-Q19FWZE/5.jpg",
+    "/lovable-uploads/lg/US-Q19FWZE/6.jpg",
+    "/lovable-uploads/lg/US-Q19FWZE/7.avif",
+    "/lovable-uploads/lg/US-Q19FWZE/8.avif",
+    "/lovable-uploads/lg/US-Q19FWZE/9.avif",
+    "/lovable-uploads/lg/US-Q19FWZE/10.avif",
+  
   ],
   description: 'LG 1.5T Inverter 5 Star Split AC with Wi-Fi connectivity and smart features'
 },
@@ -2727,9 +2741,11 @@ export const acProducts: ACProduct[] = [
     'Auto Clean',
     'Low Noise Operation'
   ],
-  image: "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
+  image: "/lovable-uploads/lg/US-Q18TNXE/1.avif",
   images: [
-    "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png"
+    "/lovable-uploads/lg/US-Q18TNXE/1.avif",
+    "/lovable-uploads/lg/US-Q18TNXE/2.webp",
+    "/lovable-uploads/lg/US-Q18TNXE/3.jpg"
   ],
   description: 'LG 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
 },
@@ -2749,9 +2765,14 @@ export const acProducts: ACProduct[] = [
     'HD Filter',
     'Auto Clean'
   ],
-  image: "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
+  image: "/lovable-uploads/lg/US-Q18KWXE/1.avif",
   images: [
-    "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png"
+    "/lovable-uploads/lg/US-Q18KWXE/1.avif",
+    "/lovable-uploads/lg/US-Q18KWXE/2.webp",
+    "/lovable-uploads/lg/US-Q18KWXE/3.jpg",
+    "/lovable-uploads/lg/US-Q18KWXE/4.avif",
+    "/lovable-uploads/lg/US-Q18KWXE/5.webp"
+
   ],
   description: 'LG 1.5T Inverter 3 Star Split AC with Wi-Fi connectivity and smart features'
 },
@@ -2771,9 +2792,13 @@ export const acProducts: ACProduct[] = [
     'Low Noise Operation',
     'High Capacity Cooling'
   ],
-  image: "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
+  image: "/lovable-uploads/lg/US-Q24ENXE/1.avif",
   images: [
-    "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png"
+    "/lovable-uploads/lg/US-Q24ENXE/1.avif",
+    "/lovable-uploads/lg/US-Q24ENXE/2.jpg",
+    "/lovable-uploads/lg/US-Q24ENXE/3.jpg",
+    "/lovable-uploads/lg/US-Q24ENXE/4.jpg",
+    "/lovable-uploads/lg/US-Q24ENXE/5.jpg",
   ],
   description: 'LG 2.0T Inverter 3 Star Split AC for large rooms with efficient cooling'
 },
@@ -2795,9 +2820,13 @@ export const acProducts: ACProduct[] = [
     'Self Diagnosis',
     'Sleep Mode'
   ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
+  image: "/lovable-uploads/voltas/125V_VECTRA_ELITE/1.webp",
   images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
+    "/lovable-uploads/voltas/125V_VECTRA_ELITE/1.webp",
+    "/lovable-uploads/voltas/125V_VECTRA_ELITE/2.webp",
+    "/lovable-uploads/voltas/125V_VECTRA_ELITE/3.webp",
+    "/lovable-uploads/voltas/125V_VECTRA_ELITE/4.webp",
+    "/lovable-uploads/voltas/125V_VECTRA_ELITE/5.webp",
   ],
   description: 'Voltas 1.0T Inverter 5 Star Split AC with Vectra Elite technology'
 },
@@ -3433,9 +3462,12 @@ export const acProducts: ACProduct[] = [
     'Low Noise Operation',
     'Auto Restart'
   ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
+  image: "/lovable-uploads/lloyd/GLS12I5FOGEC/1.jpg",
   images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+     "/lovable-uploads/lloyd/GLS12I5FOGEC/1.jpg",
+      "/lovable-uploads/lloyd/GLS12I5FOGEC/2.jpg",
+       "/lovable-uploads/lloyd/GLS12I5FOGEC/3.webp",
+        "/lovable-uploads/lloyd/GLS12I5FOGEC/4.webp",
   ],
   description: 'Lloyd 1.0T Inverter 5 Star Split AC with advanced cooling technology'
 },
@@ -3454,9 +3486,12 @@ export const acProducts: ACProduct[] = [
     'Golden Fin Evaporator',
     'Auto Restart'
   ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
+  image: "/lovable-uploads/lloyd/GLS12I3FOSEC/1.jpg",
   images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+    "/lovable-uploads/lloyd/GLS12I3FOSEC/1.jpg",
+    "/lovable-uploads/lloyd/GLS12I3FOSEC/2.jpg",
+    "/lovable-uploads/lloyd/GLS12I3FOSEC/3.webp",
+    "/lovable-uploads/lloyd/GLS12I3FOSEC/4.webp",
   ],
   description: 'Lloyd 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
 },
@@ -3475,9 +3510,16 @@ export const acProducts: ACProduct[] = [
     'Golden Fin Evaporator',
     'Auto Restart'
   ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
+  image: "/lovable-uploads/lloyd/GLS12C3XWADS/1.avif",
   images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+    "/lovable-uploads/lloyd/GLS12C3XWADS/1.avif",
+    "/lovable-uploads/lloyd/GLS12C3XWADS/2.jpg",
+    "/lovable-uploads/lloyd/GLS12C3XWADS/3.jpg",
+    "/lovable-uploads/lloyd/GLS12C3XWADS/4.jpg",
+    "/lovable-uploads/lloyd/GLS12C3XWADS/5.jpg",
+    "/lovable-uploads/lloyd/GLS12C3XWADS/6.webp",
+    "/lovable-uploads/lloyd/GLS12C3XWADS/7.webp",
+
   ],
   description: 'Lloyd 1.0T Non-Inverter 3 Star Split AC with reliable cooling'
 },
@@ -3498,9 +3540,13 @@ export const acProducts: ACProduct[] = [
     'Auto Restart',
     'High Efficiency Cooling'
   ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
+  image: "/lovable-uploads/lloyd/GLS18I5FOGEW/1.jpg",
   images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+    "/lovable-uploads/lloyd/GLS18I5FOGEW/1.jpg",
+    "/lovable-uploads/lloyd/GLS18I5FOGEW/2.jpg",
+    "/lovable-uploads/lloyd/GLS18I5FOGEW/3.webp",
+    "/lovable-uploads/lloyd/GLS18I5FOGEW/4.webp",
+    "/lovable-uploads/lloyd/GLS18I5FOGEW/5.jpeg",
   ],
   description: 'Lloyd 1.5T Inverter 5 Star Split AC with premium cooling features'
 },
@@ -3540,9 +3586,12 @@ export const acProducts: ACProduct[] = [
     'Golden Fin Evaporator',
     'Auto Restart'
   ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
+  image:  "/lovable-uploads/lloyd/GLS18C3YWADS/1.jpg",
   images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+    "/lovable-uploads/lloyd/GLS18C3YWADS/1.jpg",
+    "/lovable-uploads/lloyd/GLS18C3YWADS/2.jpg",
+    "/lovable-uploads/lloyd/GLS18C3YWADS/3.webp",
+    "/lovable-uploads/lloyd/GLS18C3YWADS/4.webp",
   ],
   description: 'Lloyd 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
 },
@@ -3563,9 +3612,13 @@ export const acProducts: ACProduct[] = [
     'Auto Restart',
     'High Efficiency Cooling'
   ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
+  image: "/lovable-uploads/lloyd/GLS24I5FWGEV/1.jpg",
   images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+     "/lovable-uploads/lloyd/GLS24I5FWGEV/1.jpg",
+    "/lovable-uploads/lloyd/GLS24I5FWGEV/2.jpg",
+    "/lovable-uploads/lloyd/GLS24I5FWGEV/3.jpg",
+    "/lovable-uploads/lloyd/GLS24I5FWGEV/4.jpg",
+    "/lovable-uploads/lloyd/GLS24I5FWGEV/5.jpg",
   ],
   description: 'Lloyd 2.0T Inverter 5 Star Split AC for large rooms with efficient cooling'
 },
@@ -3585,9 +3638,13 @@ export const acProducts: ACProduct[] = [
     'Auto Restart',
     'High Capacity Cooling'
   ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
+  image: "/lovable-uploads/lloyd/GLS24I3FWSEM/1.jpg",
   images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+    "/lovable-uploads/lloyd/GLS24I3FWSEM/1.jpg",
+    "/lovable-uploads/lloyd/GLS24I3FWSEM/2.jpg",
+    "/lovable-uploads/lloyd/GLS24I3FWSEM/3.jpg",
+    "/lovable-uploads/lloyd/GLS24I3FWSEM/4.jpg",
+    "/lovable-uploads/lloyd/GLS24I3FWSEM/5.jpg",
   ],
   description: 'Lloyd 2.0T Inverter 3 Star Split AC for large rooms with energy-efficient cooling'
 },
@@ -3608,9 +3665,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Auto Restart'
   ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
+  image: "/lovable-uploads/vestar/VASKE123IA15H/1.jpg",
   images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
+    "/lovable-uploads/vestar/VASKE123IA15H/1.jpg",
+    "/lovable-uploads/vestar/VASKE123IA15H/2.jpg",
+    "/lovable-uploads/vestar/VASKE123IA15H/3.jpg",
   ],
   description: 'Vestar 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
 },
@@ -3651,33 +3710,15 @@ export const acProducts: ACProduct[] = [
     'Auto Restart',
     'High Efficiency Cooling'
   ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
+  image: "/lovable-uploads/vestar/VASKD185IEI2G/1.jpg",
   images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
+    "/lovable-uploads/vestar/VASKD185IEI2G/1.jpg",
+    "/lovable-uploads/vestar/VASKD185IEI2G/2.jpg",
+    "/lovable-uploads/vestar/VASKD185IEI2G/3.jpg",
   ],
   description: 'Vestar 1.5T Inverter 5 Star Split AC with premium cooling features'
 },
-{
-  id: 'vestar-split-1.5t-inv-3star-vaskd185iei2g-3star',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'VASKD185IEI2G',
-  price: 30500,
-  features: [
-    'Inverter Technology',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
-  images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
-  ],
-  description: 'Vestar 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
-},
+
 {
   id: 'vestar-split-1.5t-non-inv-3star-vaskd183fei2h',
   type: 'split',
@@ -3693,9 +3734,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Auto Restart'
   ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
+  image: "/lovable-uploads/vestar/VASKD183FEI2H/1.jpg",
   images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
+   "/lovable-uploads/vestar/VASKD183FEI2H/1.jpg",
+   "/lovable-uploads/vestar/VASKD183FEI2H/2.jpg",
+   "/lovable-uploads/vestar/VASKD183FEI2H/3.jpg",
   ],
   description: 'Vestar 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
 },
