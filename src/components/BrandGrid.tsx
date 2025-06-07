@@ -74,22 +74,22 @@ const item = {
 const BrandGrid = () => {
   return (
     <section className="section-padding bg-gradient-to-br from-gray-100 via-white to-gray-100" id="brands">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4 sm:px-6">
         <motion.div 
-          className="text-center mb-12"
+          className="text-center mb-8 sm:mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-bold text-gray-900">Our Premium Brands</h2>
-          <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Our Premium Brands</h2>
+          <p className="mt-2 text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-4">
             Choose from our selection of top-tier air conditioner manufacturers, each renowned for quality and innovation.
           </p>
         </motion.div>
         
         <motion.div 
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
@@ -102,12 +102,12 @@ const BrandGrid = () => {
                   whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  <Card className="overflow-hidden bg-white border border-gray-100 h-32 flex items-center justify-center transition-all duration-300 hover:shadow-xl hover:border-cool-blue/30">
-                    <CardContent className="p-6 flex items-center justify-center h-full">
+                  <Card className="overflow-hidden bg-white border border-gray-100 h-24 sm:h-28 md:h-32 flex items-center justify-center transition-all duration-300 hover:shadow-xl hover:border-cool-blue/30">
+                    <CardContent className="p-3 sm:p-4 md:p-6 flex items-center justify-center h-full w-full">
                       <img
                         src={brand.logo}
                         alt={`${brand.name} logo`}
-                        className="max-h-16 object-contain"
+                        className="max-h-12 sm:max-h-14 md:max-h-16 w-auto max-w-full object-contain"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
                           target.src = "https://via.placeholder.com/200x80?text=" + brand.name;

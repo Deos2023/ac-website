@@ -37,11 +37,11 @@ const Header = () => {
 
   return (
     <header className={headerClass}>
-      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group">
+      <div className="container mx-auto px-4 py-2 sm:py-3 flex items-center justify-between">
+        <Link to="/" className="flex items-center gap-1 sm:gap-2 group">
           <span
             className={[
-              "font-extrabold text-2xl tracking-tight transition-colors duration-300",
+              "font-extrabold text-xl sm:text-2xl tracking-tight transition-colors duration-300",
               scrolled ? "text-blue-700" : "text-white"
             ].join(' ')}
           >
@@ -49,7 +49,7 @@ const Header = () => {
           </span>
           <span
             className={[
-              "font-semibold text-xl transition-colors duration-300",
+              "font-semibold text-lg sm:text-xl transition-colors duration-300",
               scrolled ? "text-amber-600" : "text-amber-300"
             ].join(' ')}
           >
@@ -88,45 +88,44 @@ const Header = () => {
       </div>
 
       {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className={[
-          "md:hidden absolute top-full left-0 w-full transition-all duration-300",
-          scrolled
-            ? "bg-white border-b border-gray-200 shadow-lg"
-            : "bg-gradient-to-b from-black/80 to-transparent"
-        ].join(' ')}>
-          <nav className="container mx-auto px-4 py-6 flex flex-col gap-3">
-            <Link
-              to="/"
-              className={navLinkClass(false) + " py-3 text-lg"}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Home
-            </Link>
-            <Link
-              to="/gallery"
-              className={navLinkClass(false) + " py-3 text-lg"}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Gallery
-            </Link>
-            <Link
-              to="/about"
-              className={navLinkClass(false) + " py-3 text-lg"}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About
-            </Link>
-            <Link
-              to="/contact"
-              className={navLinkClass(false) + " py-3 text-lg"}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contact
-            </Link>
-          </nav>
-        </div>
-      )}
+      <div className={[
+        "md:hidden absolute top-full left-0 w-full transition-all duration-300 transform",
+        isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-2 opacity-0 pointer-events-none",
+        scrolled
+          ? "bg-white border-b border-gray-200 shadow-lg"
+          : "bg-black/90 backdrop-blur-sm"
+      ].join(' ')}>
+        <nav className="container mx-auto px-4 py-4 flex flex-col">
+          <Link
+            to="/"
+            className={`${scrolled ? "text-gray-900" : "text-white"} py-3 text-base font-medium border-b border-gray-200/20`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Home
+          </Link>
+          <Link
+            to="/gallery"
+            className={`${scrolled ? "text-gray-900" : "text-white"} py-3 text-base font-medium border-b border-gray-200/20`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Gallery
+          </Link>
+          <Link
+            to="/about"
+            className={`${scrolled ? "text-gray-900" : "text-white"} py-3 text-base font-medium border-b border-gray-200/20`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            About
+          </Link>
+          <Link
+            to="/contact"
+            className={`${scrolled ? "text-gray-900" : "text-white"} py-3 text-base font-medium`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Contact
+          </Link>
+        </nav>
+      </div>
     </header>
   );
 };

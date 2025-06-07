@@ -52,21 +52,19 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full overflow-hidden" style={{ height: "100vh" }}>
+    <div className="relative w-full overflow-hidden h-screen min-h-[600px] max-h-[900px]">
       {heroSlides.map((slide, index) => (
         <div
           key={slide.id}
-          className={`absolute inset-0 w-full transition-opacity duration-1000 ${
+          className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${
             index === currentSlide ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
-          style={{ height: "100vh" }}
         >
           {/* Background Image */}
           <img
             src={slide.image}
             alt={slide.title}
             className="w-full h-full object-cover"
-            style={{ height: "100vh", width: "100vw" }}
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.src = "https://images.pexels.com/photos/5824883/pexels-photo-5824883.jpeg";
@@ -74,22 +72,22 @@ const Hero = () => {
           />
           
           {/* Content Overlay with Premium Styling */}
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" style={{ height: "100vh" }}>
-            <div className="container mx-auto px-4 h-full flex items-center">
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
               <div className="max-w-2xl text-white">
-                <span className="text-white/90 font-medium mb-2 block text-lg tracking-wider">
+                <span className="text-white/90 font-medium mb-2 block text-base sm:text-lg tracking-wider">
                   {slide.subtitle}
                 </span>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 leading-tight">
                   {slide.title}
                 </h1>
-                <p className="text-xl text-white/90 mb-8">{slide.description}</p>
+                <p className="text-lg sm:text-xl text-white/90 mb-6 sm:mb-8">{slide.description}</p>
                 
                 {/* CTA Button with Premium Design */}
                 <Button 
                   asChild 
                   size="lg" 
-                  className="bg-red-600 hover:bg-red-700 rounded-full px-8 text-lg font-medium"
+                  className="bg-red-600 hover:bg-red-700 rounded-full px-6 sm:px-8 text-base sm:text-lg font-medium"
                 >
                   <Link to={slide.btnLink}>{slide.btnText}</Link>
                 </Button>

@@ -28,7 +28,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <Card className="overflow-hidden border border-gray-200 shadow-lg hover-lift">
-      <div className="h-52 flex items-center justify-center bg-gradient-to-r from-gray-50 to-blue-50 p-4">
+      <div className="h-52 flex items-center justify-center  p-4">
         <img 
           src={imageSrc}
           alt={modelNumber}
