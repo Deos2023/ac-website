@@ -7,21 +7,21 @@ const showcaseItems = [
     id: 1,
     title: "Superior Cooling Technology",
     description: "Experience the perfect temperature in any weather condition with our advanced cooling systems.",
-    imageSrc: "/lovable-uploads/e804a384-717d-4b21-8f27-3926969ddc06.png",
+    imageSrc: "/lovable-uploads/daikin/split-ac/1.png",
     bgColor: "from-blue-500/10 to-cyan-500/10"
   },
   {
     id: 2,
     title: "Elegant Design",
     description: "Premium aesthetics that complement your interior decor while providing exceptional functionality.",
-    imageSrc: "/lovable-uploads/31389003-e760-4a88-b98d-1952c74143ec.png",
+    imageSrc: "/lovable-uploads/lg/split-ac/1.png",
     bgColor: "from-purple-500/10 to-blue-500/10"
   },
   {
     id: 3,
     title: "Energy Efficient",
     description: "Reduce your electricity bills with our energy-efficient air conditioning solutions.",
-    imageSrc: "/lovable-uploads/1a4210eb-3a20-4fd7-9983-a8b981ece7a8.png",
+    imageSrc: "/lovable-uploads/mitsubishi/split-ac/1.png",
     bgColor: "from-green-500/10 to-emerald-500/10"
   }
 ];

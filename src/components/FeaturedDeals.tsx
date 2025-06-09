@@ -8,7 +8,7 @@ const deals = [
     id: 1,
     title: "Unlock Premium Cooling",
     description: "Up to 50%* off | Cashback up to ₹7500*",
-    image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    image: "/lovable-uploads/samsung/split-ac/1.png",
     bgColor: "bg-gradient-to-r from-gray-900 to-gray-800",
     link: "/brand/samsung"
   },
@@ -16,7 +16,7 @@ const deals = [
     id: 2,
     title: "AI Powered Efficiency",
     description: "Up to 44%* off | Cashback up to ₹10%*",
-    image: "/lovable-uploads/31389003-e760-4a88-b98d-1952c74143ec.png",
+    image: "/lovable-uploads/lg/split-ac/1.png",
     bgColor: "bg-gradient-to-r from-blue-900 to-blue-800",
     link: "/brand/lg"
   },
@@ -24,7 +24,7 @@ const deals = [
     id: 3,
     title: "Superior Cooling Technology",
     description: "Up to 40%* off | No Cost EMI Available",
-    image: "/lovable-uploads/1a4210eb-3a20-4fd7-9983-a8b981ece7a8.png",
+    image: "/lovable-uploads/mitsubishi/split-ac/1.png",
     bgColor: "bg-gradient-to-r from-indigo-900 to-indigo-800",
     link: "/brand/daikin"
   }

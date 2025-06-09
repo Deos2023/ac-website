@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import SelectionLayout from "@/components/SelectionLayout";
 import SelectionCard from "@/components/SelectionCard";
 import { starRatings, acTypes, brands, inverterTypes, ACType, Brand, InverterType } from "@/lib/ac-selection-data";
+import { getAvailableStarRatings } from "@/lib/utils";
 
 const StarSelectionPage = () => {
   const { type, brand, inverter, tonnage } = useParams<{ type: string; brand: string; inverter: string; tonnage: string }>();
@@ -15,6 +16,9 @@ const StarSelectionPage = () => {
   // Find the current selections for display
   const currentType = acTypes.find(t => t.id === acType)?.name || "AC";
   const currentBrand = brands.find(b => b.id === brandId)?.name || "Brand";
+  
+  // Get only star ratings that have products available for this combination
+  const availableStarRatings = getAvailableStarRatings(acType, brandId, inverterType, tonnageValue);
   
   // Scroll to top on component mount
   useEffect(() => {
@@ -28,7 +32,7 @@ const StarSelectionPage = () => {
       currentStep={4}
     >
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 max-w-3xl mx-auto">
-        {starRatings.map((star) => (
+        {availableStarRatings.map((star) => (
           <SelectionCard
             key={star}
             title={star}
