@@ -1292,13 +1292,11 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK20CXS',
   price: 59760,
   features: ['Non-Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi-heavy-split.png',
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp",
   images: [
-    "/lovable-uploads/mh1-6-3star-1.png",
-    "/lovable-uploads/mh1-6-3star-2.png",
-    "/lovable-uploads/mh1-6-3star-3.png",
-    "/lovable-uploads/mh1-6-3star-4.png",
-    "/lovable-uploads/mh1-6-3star-5.png"
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/2.avif",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/3.webp",
   ],
   description: 'MITSUBISHI HEAVY 1.6T NON INV 3★ SRK20CXS Split AC'
 },
@@ -1925,11 +1923,10 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Allergen Clear Filter'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YXS/1.webp",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YXS/1.webp",
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YXS/2.webp",
   ],
   description: 'MITSUBISHI HEAVY 1.1T INV 5* SRK13YXS with premium features for enhanced comfort'
 },
@@ -1949,11 +1946,13 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Allergen Clear Filter'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.webp",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/1.webp",
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/2.webp",
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/3.webp",
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/4.webp",
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13YYM/5.webp",
   ],
   description: 'MITSUBISHI HEAVY 1.0T INV 3* SRK13YYM with reliable cooling performance'
 },
@@ -1995,11 +1994,10 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.png",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.png",
+   "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.webp",
   ],
   description: 'MITSUBISHI HEA 1.3T NON INV 2*SRK15CXS with reliable cooling performance'
 },
@@ -2043,11 +2041,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/1.webp",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+   image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/1.webp",
+   image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/2.webp",
+   image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/3.webp",
   ],
   description: 'MITSUBISHI HEA 1.6T NON INV 3*SRK20CSS with reliable cooling performance'
 },
