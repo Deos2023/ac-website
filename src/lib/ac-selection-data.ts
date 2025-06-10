@@ -1050,81 +1050,7 @@ export const acProducts: ACProduct[] = [
   description: 'O GENERAL 1.5T NON INV 3★ 18BUTA Split AC'
 },
 
-{
-  id: 'og-split-2.0t-inv-5star-24ggaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: '24GGAA',
-  price: 77690,
-  features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/83e83c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/84f84c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/85g85c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 2.0T INV 5★ 24GGAA Split AC'
-},
-{
-  id: 'og-split-2.0t-inv-5star-24ceta',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: '24CETA',
-  price: 81450,
-  features: ['Inverter', 'High efficiency'],
-  images: [
-    "/lovable-uploads/86h86c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/87i87c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/88j88c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/89k89c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/90l90c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  image: '/lovable-uploads/ogeneral-split.png',
-  description: 'O GENERAL 2.0T INV 5★ 24CETA Split AC'
-},
-{
-  id: 'og-split-2.0t-inv-3star-24cpaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '24CPAA',
-  price: 63428,
-  features: ['Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/91m91c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/92n92c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/93o93c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/94p94c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 2.0T INV 3★ 24CPAA Split AC'
-},
-{
-  id: 'og-split-2.0t-inv-3star-24cpab',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '24CPAB',
-  price: 63428,
-  features: ['Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/95q95c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/96r96c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/97s97c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 2.0T INV 3★ 24CPAB Split AC'
-},
+
 {
   id: 'og-split-2.0t-noninv-3star-24bmaa',
   type: 'split',
@@ -1164,44 +1090,7 @@ export const acProducts: ACProduct[] = [
   ],
   description: 'O GENERAL 2.0T NON INV 3★ 24BUTA Split AC'
 },
-{
-  id: 'og-split-2.5t-inv-4star-30ceb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.5T',
-  starRating: '4★',
-  modelNumber: '30CEB',
-  price: 102310,
-  features: ['Inverter', 'Large capacity'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/107c107c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/108d108c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/109e109c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 2.5T INV 4★ 30CEB Split AC'
-},
-{
-  id: 'og-split-3.0t-inv-5star-36ceb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '3.0T',
-  starRating: '5★',
-  modelNumber: '36CEB',
-  price: 123190,
-  features: ['Inverter', 'Large capacity'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/110f110c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/111g111c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/112h112c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/113i113c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/114j114c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 3.0T INV 5★ 36CEB Split AC'
-},
+
 
 // MITSUBISHI HEAVY INDUSTRIES
 {
@@ -1726,11 +1615,13 @@ export const acProducts: ACProduct[] = [
     'Smart Diagnosis',
     '4-Way Air Direction'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/24GGAA/1.png",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/o-general/24GGAA/1.png",
+    "/lovable-uploads/o-general/24GGAA/2.png",
+    "/lovable-uploads/o-general/24GGAA/3.png",
+    "/lovable-uploads/o-general/24GGAA/4.png",
+    "/lovable-uploads/o-general/24GGAA/5.png"
   ],
   description: 'O GENERAL 2.0T INV 5* 24GGAA perfect for large rooms'
 },
@@ -1752,11 +1643,11 @@ export const acProducts: ACProduct[] = [
     '4-Way Air Direction',
     'Premium Design'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/24CETA/1.jpg",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/o-general/24CETA/1.jpg",
+    "/lovable-uploads/o-general/24CETA/2.jpg",
+    "/lovable-uploads/o-general/24CETA/3.jpg",
   ],
   description: 'O GENERAL 2.0T INV 5* 24CETA with premium features for enhanced comfort'
 },
@@ -1775,11 +1666,13 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/24CPAA/1.png",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/o-general/24CPAA/1.png",
+    "/lovable-uploads/o-general/24CPAA/2.png",
+    "/lovable-uploads/o-general/24CPAA/3.png",
+    "/lovable-uploads/o-general/24CPAA/4.png",
+    "/lovable-uploads/o-general/24CPAA/5.png"
   ],
   description: 'O GENERAL 2.0T INV 3* 24CPAA with reliable cooling performance'
 },
@@ -1798,11 +1691,12 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/24CPAB/1.png",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/o-general/24CPAB/1.png",
+    "/lovable-uploads/o-general/24CPAB/2.png",
+    "/lovable-uploads/o-general/24CPAB/3.png",
+    "/lovable-uploads/o-general/24CPAB/4.png",
   ],
   description: 'O GENERAL 2.0T INV 3* 24CPAB with reliable cooling performance'
 },
@@ -1871,11 +1765,13 @@ export const acProducts: ACProduct[] = [
     '4-Way Air Direction',
     'Premium Design'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/30CEB/1.png",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/o-general/30CEB/1.png",
+    "/lovable-uploads/o-general/30CEB/2.png",
+    "/lovable-uploads/o-general/30CEB/3.png",
+    "/lovable-uploads/o-general/30CEB/4.png",
+    "/lovable-uploads/o-general/30CEB/5.png"
   ],
   description: 'O GENERAL 2.5T INV 4* 30CEB with premium features for enhanced comfort'
 },
@@ -1898,11 +1794,13 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'High Capacity Cooling'
   ],
-  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/36CEB/1.png",
   images: [
-    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/o-general/36CEB/1.png",
+    "/lovable-uploads/o-general/36CEB/2.png",
+    "/lovable-uploads/o-general/36CEB/3.png",
+    "/lovable-uploads/o-general/36CEB/4.png",
+    "/lovable-uploads/o-general/36CEB/5.png"
   ],
   description: 'O GENERAL 3.0T INV 5* 36CEB with premium features for enhanced comfort'
 },
