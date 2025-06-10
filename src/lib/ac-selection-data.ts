@@ -4183,9 +4183,9 @@ export const acProducts: ACProduct[] = [
   ],
   image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/1.webp",
   images: [
-   image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/1.webp",
-   image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/2.webp",
-   image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/3.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/1.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/2.webp",
+    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CSS/3.webp",
   ],
   description: 'MITSUBISHI HEA 1.6T NON INV 3*SRK20CSS with reliable cooling performance'
 },
