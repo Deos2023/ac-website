@@ -928,8 +928,11 @@ export const acProducts: ACProduct[] = [
     modelNumber: "AS-12TR4R5AJ",
     price: 33000,
     features: ["Inverter", "Energy Efficient"],
-    image: "/lovable-uploads/hisense/AS-12TR4R5AJ/1.png",
-    images: ["/lovable-uploads/hisense/AS-12TR4R5AJ/1.png"],
+    image: "/lovable-uploads/hisense/AS-12TR4R5AJ/1.jpg",
+    images: ["/lovable-uploads/hisense/AS-12TR4R5AJ/1.jpg",
+      "/lovable-uploads/hisense/AS-12TR4R5AJ/2.jpg",
+      "/lovable-uploads/hisense/AS-12TR4R5AJ/3.jpg",
+    ],
     description: "HISENSE 1.0T INV 5★ AS-12TR4R5AJ Split AC",
   },
   {
@@ -956,8 +959,11 @@ export const acProducts: ACProduct[] = [
     modelNumber: "AS-12TF4R3AJ",
     price: 32000,
     features: ["Non-Inverter", "Energy Efficient"],
-    image: "/lovable-uploads/hisense/AS-12TF4R3AJ/1.png",
-    images: ["/lovable-uploads/hisense/AS-12TF4R3AJ/1.png"],
+    image: "/lovable-uploads/hisense/AS-12TF4R3AJ/1.jpg",
+    images: ["/lovable-uploads/hisense/AS-12TF4R3AJ/1.jpg",
+      "/lovable-uploads/hisense/AS-12TF4R3AJ/2.webp",
+      "/lovable-uploads/hisense/AS-12TF4R3AJ/3.webp"
+    ],
     description: "HISENSE 1.0T NON INV 3★ AS-12TF4R3AJ Split AC",
   },
   {
@@ -970,8 +976,13 @@ export const acProducts: ACProduct[] = [
     modelNumber: "AS-18TR4R3AK1",
     price: 38000,
     features: ["Inverter", "Energy Efficient"],
-    image: "/lovable-uploads/hisense/AS-18TR4R3AK1/1.png",
-    images: ["/lovable-uploads/hisense/AS-18TR4R3AK1/1.png"],
+    image: "/lovable-uploads/hisense/AS-18TR4R3AK1/1.jpg",
+    images: ["/lovable-uploads/hisense/AS-18TR4R3AK1/1.jpg",
+      "/lovable-uploads/hisense/AS-18TR4R3AK1/2.webp",
+      "/lovable-uploads/hisense/AS-18TR4R3AK1/3.webp",
+      "/lovable-uploads/hisense/AS-18TR4R3AK1/4.webp",
+
+    ],
     description: "HISENSE 1.5T INV 5★ AS-18TR4R3AK1 Split AC",
   },
   {
