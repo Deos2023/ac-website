@@ -68,7 +68,7 @@ export const inverterTypes: { id: InverterType; name: string }[] = [
   { id: 'non-inverter', name: 'Non-Inverter AC' }
 ];
 
-export const tonnageOptions = ['1.0T', '1.14T', '1.5T', '2.0T', '2.5T', '3.0T'];
+export const tonnageOptions = ['1.0T', '1.1T', '1.14T', '1.3T', '1.5T', '1.6T', '1.8T', '1.95T', '2.0T', '2.1T', '2.2T', '2.5T', '2.6T', '3.0T', '3.6T', '.8T'];
 export const starRatings = ['1★', '2★', '3★', '4★', '5★'];
 
 // This is just a subset of the data for example purposes
@@ -90,13 +90,13 @@ export const acProducts: ACProduct[] = [
       'Sleep Mode',
       'Smart Diagnosis'
     ],
-    image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    image: "/lovable-uploads/o-general/12CGTB/1.png",
     images: [
-      "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-      "/lovable-uploads/e804a384-717d-4b21-8f27-3926969ddc06.png",
-      "/lovable-uploads/1c3da51e-7837-42fb-9c80-a4a43d253acb.png",
-      "/lovable-uploads/31389003-e760-4a88-b98d-1952c74143ec.png",
-      "/lovable-uploads/7994dc55-fdbd-440b-8eca-97984f41f39b.png"
+      "/lovable-uploads/o-general/12CGTB/1.png",
+      "/lovable-uploads/o-general/12CGTB/2.png",
+      "/lovable-uploads/o-general/12CGTB/3.png",
+      "/lovable-uploads/o-general/12CGTB/4.png",
+      "/lovable-uploads/o-general/12CGTB/5.png"
     ],
     description: 'O GENERAL 1.0T INV 5* 12CGTB with advanced cooling and energy efficiency'
   },
@@ -115,12 +115,12 @@ export const acProducts: ACProduct[] = [
       'Sleep Mode',
       'Energy Saving Mode'
     ],
-    image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    image: "/lovable-uploads/o-general/12CPAA/1.jpg",
     images: [
-      "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-      "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-      "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png",
-      "/lovable-uploads/32b80bca-8b8e-4aac-8316-76596978bb51.png"
+      "/lovable-uploads/o-general/12CPAA/1.jpg",
+      "/lovable-uploads/o-general/12CPAA/2.jpg",
+      "/lovable-uploads/o-general/12CPAA/3.jpg",
+      "/lovable-uploads/o-general/12CPAA/4.png"
     ],
     description: 'O GENERAL 1.0T INV 3* 12CPAA with reliable cooling performance'
   },
@@ -141,13 +141,13 @@ export const acProducts: ACProduct[] = [
       'Smart Diagnosis',
       '4-Way Air Direction'
     ],
-    image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    image: "/lovable-uploads/o-general/18CGTB/1.png",
     images: [
-      "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-      "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-      "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png",
-      "/lovable-uploads/97d42845-0d65-42cd-9e69-51af08f84088.png",
-      "/lovable-uploads/94100e13-1446-47ff-8bb4-4cd8fb95035f.png"
+      "/lovable-uploads/o-general/18CGTB/1.png",
+      "/lovable-uploads/o-general/18CGTB/2.png",
+      "/lovable-uploads/o-general/18CGTB/3.png",
+      "/lovable-uploads/o-general/18CGTB/4.png",
+      "/lovable-uploads/o-general/18CGTB/5.png"
     ],
     description: 'O GENERAL 1.5T INV 5* 18CGTB perfect for medium to large rooms'
   },
@@ -167,12 +167,12 @@ export const acProducts: ACProduct[] = [
       'PM 2.5 Filter',
       'Wi-Fi Optional'
     ],
-    image: "public/lovable-uploads/1a4210eb-3a20-4fd7-9983-a8b981ece7a8.png",
+    image: "/lovable-uploads/daikin/FTKU35UV16/1.png",
     images: [
-      "public/lovable-uploads/1a4210eb-3a20-4fd7-9983-a8b981ece7a8.png",
-      "public/lovable-uploads/94100e13-1446-47ff-8bb4-4cd8fb95035f.png",
-      "public/lovable-uploads/43b71c61-896e-4271-a7b2-a9a165a9f892.png",
-      "public/lovable-uploads/72002498-a99e-40af-8002-2a7eddb8ffc5.png"
+      "/lovable-uploads/daikin/FTKU35UV16/1.png",
+      "/lovable-uploads/daikin/FTKU35UV16/2.png",
+      "/lovable-uploads/daikin/FTKU35UV16/3.png",
+      "/lovable-uploads/daikin/FTKU35UV16/4.png"
     ],
     description: 'DAIKIN 1.0T INV 5* FTKU35UV16 with advanced Japanese technology'
   },
@@ -192,13 +192,13 @@ export const acProducts: ACProduct[] = [
       'Smart Diagnosis',
       '4-Way Swing'
     ],
-    image: "/lovable-uploads/lg/US-Q19BNZE/1.avif",
+    image: "/lovable-uploads/lg/US-Q19BNZE/1.png",
     images: [
-      "/lovable-uploads/lg/US-Q19BNZE/1.avif",
-      "/lovable-uploads/lg/US-Q19BNZE/2.avif",
-      "/lovable-uploads/lg/US-Q19BNZE/3.avif",
-      "/lovable-uploads/lg/US-Q19BNZE/4.avif",
-      
+      "/lovable-uploads/lg/US-Q19BNZE/1.png",
+      "/lovable-uploads/lg/US-Q19BNZE/2.png",
+      "/lovable-uploads/lg/US-Q19BNZE/3.png",
+      "/lovable-uploads/lg/US-Q19BNZE/4.png",
+      "/lovable-uploads/lg/US-Q19BNZE/5.png"
     ],
     description: 'LG 1.5T INV 5* US-Q19BNZE with AI technology and superior cooling'
   },
@@ -218,12 +218,12 @@ export const acProducts: ACProduct[] = [
       'Fresh Air Intake',
       'Low Noise Operation'
     ],
-    image: "public/lovable-uploads/7994dc55-fdbd-440b-8eca-97984f41f39b.png",
+    image: "/lovable-uploads/daikin/FCVFQ71/1.png",
     images: [
-      "public/lovable-uploads/7994dc55-fdbd-440b-8eca-97984f41f39b.png",
-      "public/lovable-uploads/94100e13-1446-47ff-8bb4-4cd8fb95035f.png",
-      "public/lovable-uploads/1a4210eb-3a20-4fd7-9983-a8b981ece7a8.png",
-      "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+      "/lovable-uploads/daikin/FCVFQ71/1.png",
+      "/lovable-uploads/daikin/FCVFQ71/2.png",
+      "/lovable-uploads/daikin/FCVFQ71/3.png",
+      "/lovable-uploads/daikin/FCVFQ71/4.png"
     ],
     description: 'DAIKIN 2.0T INV 3* FCVFQ71 Cassette AC for commercial spaces'
   },
@@ -243,13 +243,13 @@ export const acProducts: ACProduct[] = [
       'Self Diagnosis',
       'Copper Condenser'
     ],
-    image: "public/lovable-uploads/1c3da51e-7837-42fb-9c80-a4a43d253acb.png",
+    image: "/lovable-uploads/voltas/185V_VECTRA_PEARL/1.png",
     images: [
-      "public/lovable-uploads/1c3da51e-7837-42fb-9c80-a4a43d253acb.png",
-      "public/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-      "public/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-      "public/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-      "public/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
+      "/lovable-uploads/voltas/185V_VECTRA_PEARL/1.png",
+      "/lovable-uploads/voltas/185V_VECTRA_PEARL/2.png",
+      "/lovable-uploads/voltas/185V_VECTRA_PEARL/3.png",
+      "/lovable-uploads/voltas/185V_VECTRA_PEARL/4.png",
+      "/lovable-uploads/voltas/185V_VECTRA_PEARL/5.png"
     ],
     description: 'VOLTAS 1.5T INV 5* 185V VECTRA PEARL Window AC with modern features'
   },
@@ -266,12 +266,12 @@ export const acProducts: ACProduct[] = [
     modelNumber: '09BBWA',
     price: 27490,
     features: ['Reliable cooling', 'Energy efficient', 'Durable build'],
-    image: '/lovable-uploads/ogeneral-window.png',
+    image: '/lovable-uploads/o-general/09BBWA/1.png',
     images: [
-      "/lovable-uploads/1c3da51e-7837-42fb-9c80-a4a43d253acb.png",
-      "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-      "/lovable-uploads/e804a384-717d-4b21-8f27-3926969ddc06.png",
-      "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
+      "/lovable-uploads/o-general/09BBWA/1.png",
+      "/lovable-uploads/o-general/09BBWA/2.png",
+      "/lovable-uploads/o-general/09BBWA/3.png",
+      "/lovable-uploads/o-general/09BBWA/4.png"
     ],
     description: 'O GENERAL 0.8T NON INV 3★ 09BBWA Window AC'
   },
@@ -988,81 +988,7 @@ export const acProducts: ACProduct[] = [
 // --- SPLIT AC PRICES ---
 
 // O GENERAL
-{
-  id: 'og-split-1.0t-inv-5star-12cgtb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: '12CGTB',
-  price: 50200,
-  features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/36j36c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/37k37c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/38l38c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/39m39c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 1.0T INV 5★ 12CGTB Split AC'
-},
-{
-  id: 'og-split-1.0t-inv-5star-12cgaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: '12CGAA',
-  price: 50200,
-  features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/40n40c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/41o41c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/42p42c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 1.0T INV 5★ 12CGAA Split AC'
-},
-{
-  id: 'og-split-1.0t-inv-3star-12cpaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: '12CPAA',
-  price: 39790,
-  features: ['Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/43q43c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/44r44c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/45s45c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/46t46c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/47u47c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 1.0T INV 3★ 12CPAA Split AC'
-},
-{
-  id: 'og-split-1.0t-inv-3star-12cpab',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: '12CPAB',
-  price: 39790,
-  features: ['Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/ogen/12CPAB/1.jpg",
-    "/lovable-uploads/49w49c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/50x50c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 1.0T INV 3★ 12CPAB Split AC'
-},
+
 {
   id: 'og-split-1.14t-noninv-3star-14bmaa',
   type: 'split',
@@ -1082,61 +1008,8 @@ export const acProducts: ACProduct[] = [
   ],
   description: 'O GENERAL 1.14T NON INV 3★ 14BMAA Split AC'
 },
-{
-  id: 'og-split-1.5t-inv-5star-18cgtb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: '18CGTB',
-  price: 63490,
-  features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/55c55c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/56d56c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/57e57c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 1.5T INV 5★ 18CGTB Split AC'
-},
-{
-  id: 'og-split-1.5t-inv-5star-18cgaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: '18CGAA',
-  price: 63490,
-  features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/58f58c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/59g59c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/60h60c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/61i61c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 1.5T INV 5★ 18CGAA Split AC'
-},
-{
-  id: 'og-split-1.5t-inv-5star-18cetb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: '18CETB',
-  price: 67250,
-  features: ['Inverter', 'High efficiency'],
-  image: '/lovable-uploads/ogeneral-split.png',
-  images: [
-    "/lovable-uploads/62j62c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/63k63c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png",
-    "/lovable-uploads/64l64c5e2a-5c5c-4e9c-a5c5-c5c5c5c5c5c5.png"
-  ],
-  description: 'O GENERAL 1.5T INV 5★ 18CETB Split AC'
-},
+
+
 {
   id: 'og-split-1.5t-inv-3star-18cpab',
   type: 'split',
@@ -1433,12 +1306,11 @@ export const acProducts: ACProduct[] = [
   modelNumber: 'SRK13CRS',
   price: 47440,
   features: ['Non-Inverter', 'Energy efficient'],
-  image: '/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/1.png',
+  image: '/lovable-uploads/mitsubishi-heavy-split.png',
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/1.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/2.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/3.avif",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK13CRS/4.webp"
+    "/lovable-uploads/mh1-1-2star-1.png",
+    "/lovable-uploads/mh1-1-2star-2.png",
+    "/lovable-uploads/mh1-1-2star-3.png"
   ],
   description: 'MITSUBISHI HEAVY 1.1T NON INV 2★ SRK13CRS Split AC'
 },
@@ -1659,12 +1531,12 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Smart Diagnosis'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/12CGAA/1.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/e804a384-717d-4b21-8f27-3926969ddc06.png",
-    "public/lovable-uploads/1c3da51e-7837-42fb-9c80-a4a43d253acb.png",
-    "public/lovable-uploads/31389003-e760-4a88-b98d-1952c74143ec.png"
+    "/lovable-uploads/o-general/12CGAA/1.png",
+    "/lovable-uploads/o-general/12CGAA/2.png",
+    "/lovable-uploads/o-general/12CGAA/3.png",
+    "/lovable-uploads/o-general/12CGAA/4.png"
   ],
   description: 'O GENERAL 1.0T INV 5* 12CGAA with advanced cooling and energy efficiency'
 },
@@ -1683,11 +1555,12 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/12CPAB/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/o-general/12CPAB/1.jpg",
+    "/lovable-uploads/o-general/12CPAB/2.webp",
+    "/lovable-uploads/o-general/12CPAB/3.webp",
+    "/lovable-uploads/o-general/12CPAB/4.png"
   ],
   description: 'O GENERAL 1.0T INV 3* 12CPAB with reliable cooling performance'
 },
@@ -1706,11 +1579,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 1.14T NON INV 3* 14BMAA with reliable cooling performance'
 },
@@ -1731,11 +1604,12 @@ export const acProducts: ACProduct[] = [
     'Smart Diagnosis',
     '4-Way Air Direction'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/18CGAA/1.jpg",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/o-general/18CGAA/1.jpg",
+    "/lovable-uploads/o-general/18CGAA/2.jpg",
+    "/lovable-uploads/o-general/18CGAA/3.jpg",
+    "/lovable-uploads/o-general/18CGAA/4.jpg",
   ],
   description: 'O GENERAL 1.5T INV 5* 18CGAA perfect for medium to large rooms'
 },
@@ -1757,11 +1631,13 @@ export const acProducts: ACProduct[] = [
     '4-Way Air Direction',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/o-general/18CETB/1.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/o-general/18CETB/1.png",
+    "/lovable-uploads/o-general/18CETB/2.png",
+    "/lovable-uploads/o-general/18CETB/3.png",
+    "/lovable-uploads/o-general/18CETB/4.png",
+    "/lovable-uploads/o-general/18CETB/5.png",
   ],
   description: 'O GENERAL 1.5T INV 5* 18CETB with premium features for enhanced comfort'
 },
@@ -1780,11 +1656,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 1.5T INV 3* 18CPAB with reliable cooling performance'
 },
@@ -1803,11 +1679,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 1.5T INV 3* 18CNAA with reliable cooling performance'
 },
@@ -1826,11 +1702,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 1.5T NON INV 3* 18BMAA with reliable cooling performance'
 },
@@ -1850,11 +1726,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 1.5T NON INV 3* 18BUTA with reliable cooling performance'
 },
@@ -1875,11 +1751,11 @@ export const acProducts: ACProduct[] = [
     'Smart Diagnosis',
     '4-Way Air Direction'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'O GENERAL 2.0T INV 5* 24CGTB perfect for large rooms'
 },
@@ -1900,11 +1776,11 @@ export const acProducts: ACProduct[] = [
     'Smart Diagnosis',
     '4-Way Air Direction'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'O GENERAL 2.0T INV 5* 24GGAA perfect for large rooms'
 },
@@ -1926,11 +1802,11 @@ export const acProducts: ACProduct[] = [
     '4-Way Air Direction',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'O GENERAL 2.0T INV 5* 24CETA with premium features for enhanced comfort'
 },
@@ -1949,11 +1825,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 2.0T INV 3* 24CPAA with reliable cooling performance'
 },
@@ -1972,11 +1848,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 2.0T INV 3* 24CPAB with reliable cooling performance'
 },
@@ -1995,11 +1871,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 2.0T NON INV 3* 24BMAA with reliable cooling performance'
 },
@@ -2019,11 +1895,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
-    "public/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/0c6a71d3-919c-4b3f-96dd-09055ff138b8.png",
+    "/lovable-uploads/1873a8be-c9ed-4348-a7bc-ea7b325b29d3.png"
   ],
   description: 'O GENERAL 2.0T NON INV 3* 24BUTA with reliable cooling performance'
 },
@@ -2045,11 +1921,11 @@ export const acProducts: ACProduct[] = [
     '4-Way Air Direction',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'O GENERAL 2.5T INV 4* 30CEB with premium features for enhanced comfort'
 },
@@ -2072,11 +1948,11 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'High Capacity Cooling'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'O GENERAL 3.0T INV 5* 36CEB with premium features for enhanced comfort'
 },
@@ -2097,11 +1973,11 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Allergen Clear Filter'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI HEAVY 1.1T INV 5* SRK13YXS with premium features for enhanced comfort'
 },
@@ -2121,11 +1997,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Allergen Clear Filter'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI HEAVY 1.0T INV 3* SRK13YYM with reliable cooling performance'
 },
@@ -2144,11 +2020,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI HEA 1.1T NON INV 2*SRK13CRS with reliable cooling performance'
 },
@@ -2167,11 +2043,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK15CXS/SRK15CXS.webp",
-    
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI HEA 1.3T NON INV 2*SRK15CXS with reliable cooling performance'
 },
@@ -2191,22 +2067,211 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/1.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/2.avif",
-    "/lovable-uploads/mitsubishi/mitsubishi_heavy/SRK20CXS/3.webp"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI HEA 1.6T NON INV 3*SRK20CXS with reliable cooling performance'
 },
-
-
-
-
-
-
-
-
+{
+  id: 'mhi-split-1-6t-noninv-3star-srk20css',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.6T',
+  starRating: '3★',
+  modelNumber: 'SRK20CSS',
+  price: 61520,
+  features: [
+    'Non-Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode',
+    'Premium Design'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBISHI HEA 1.6T NON INV 3*SRK20CSS with reliable cooling performance'
+},
+{
+  id: 'mhi-split-1-8t-inv-5star-srk20yym',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '1.8T',
+  starRating: '5★',
+  modelNumber: 'SRK20YYM',
+  price: 75160,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode',
+    'Premium Design',
+    'Allergen Clear Filter'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBISHI HEAVY 1.8T INV 5* SRK20YYM with premium features for enhanced comfort'
+},
+{
+  id: 'mhi-split-1-95t-noninv-2star-srk24cw',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.95T',
+  starRating: '2★',
+  modelNumber: 'SRK24CW',
+  price: 69000,
+  features: [
+    'Non-Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBI HEAV 1.95T NON INV 2* SRK24CW with reliable cooling performance'
+},
+{
+  id: 'mhi-split-1-95t-noninv-3star-srk25cwx',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '1.95T',
+  starRating: '3★',
+  modelNumber: 'SRK25CWX',
+  price: 74280,
+  features: [
+    'Non-Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode',
+    'Premium Design'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBI HEA 1.95T NON INV 3* SRK25CWX with reliable cooling performance'
+},
+{
+  id: 'mhi-split-2-1t-inv-4star-srk24yym',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '2.1T',
+  starRating: '4★',
+  modelNumber: 'SRK24YYM',
+  price: 90991,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode',
+    'Premium Design',
+    'Allergen Clear Filter'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBISHI HEAVY 2.1T INV 4* SRK24YYM with premium features for enhanced comfort'
+},
+{
+  id: 'mhi-split-2-2t-inv-5star-srk24yvs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '2.2T',
+  starRating: '5★',
+  modelNumber: 'SRK24YVS',
+  price: 101560,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode',
+    'Premium Design',
+    'Allergen Clear Filter',
+    'Smart Diagnosis'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBISHI HEAVY 2.2T INV 5* SRK24YVS with premium features for enhanced comfort'
+},
+{
+  id: 'mhi-split-2-2t-noninv-2star-srk24yvs',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'non-inverter',
+  tonnage: '2.2T',
+  starRating: '2★',
+  modelNumber: 'SRK24YVS',
+  price: 77800,
+  features: [
+    'Non-Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBISHI HEA 2.2T NON INV 2*SRK24YVS with reliable cooling performance'
+},
+{
+  id: 'mhi-split-3-0t-inv-4star-srk100ya',
+  type: 'split',
+  brand: 'mitsubishi-heavy',
+  inverter: 'inverter',
+  tonnage: '3.0T',
+  starRating: '4★',
+  modelNumber: 'SRK100YA',
+  price: 136760,
+  features: [
+    'Digital Inverter Technology',
+    'Auto Restart',
+    'Sleep Mode',
+    'Energy Saving Mode',
+    'Premium Design',
+    'Allergen Clear Filter',
+    'Smart Diagnosis',
+    'High Capacity Cooling'
+  ],
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  images: [
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+  ],
+  description: 'MITSUBISHI HEAVY 3.0T INV 4* SRK100YA with premium features for enhanced comfort'
+},
 {
   id: 'me-split-1-0t-inv-5star-gr13vf',
   type: 'split',
@@ -2224,11 +2289,11 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Plasma Air Purifier'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/2.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VF/3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 5* GR13VF with premium features for enhanced comfort'
 },
@@ -2250,11 +2315,11 @@ export const acProducts: ACProduct[] = [
     'Plasma Air Purifier',
     'Wi-Fi Connectivity'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/2.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR13VFT/3.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 5* GR13VFT with premium features and Wi-Fi connectivity'
 },
@@ -2274,11 +2339,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 4* GN13VF with premium features for enhanced comfort'
 },
@@ -2297,10 +2362,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JX13VF/1.webp",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX13VF/1.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX13VF/2.webp",
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 3* JX13VF with reliable cooling performance'
 },
@@ -2319,11 +2385,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JP13VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP13VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP13VF/2.webp",
-    
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.0T INV 2* JP13VF with reliable cooling performance'
 },
@@ -2342,13 +2408,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/2.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/3.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/4.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/5.png",
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELEC 1.0T NON INV 3* AGZ13VF with reliable cooling performance'
 },
@@ -2367,12 +2431,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ13VF/1.webp",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/1.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/2.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/3.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ13VF/4.webp"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELEC 1.0T NON INV 2* AJZ13VF with reliable cooling performance'
 },
@@ -2393,12 +2456,11 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Plasma Air Purifier'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/2.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/3.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VF/4.webp"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 5* GR18VF with premium features for enhanced comfort'
 },
@@ -2420,11 +2482,11 @@ export const acProducts: ACProduct[] = [
     'Plasma Air Purifier',
     'Wi-Fi Connectivity'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VFT/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VFT/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR18VFT/2.webp",
-    
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 5* GR18VFT with premium features and Wi-Fi connectivity'
 },
@@ -2444,10 +2506,11 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GN18VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN18VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN18VF/2.webp",
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 4* GN18VF with premium features for enhanced comfort'
 },
@@ -2466,10 +2529,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JX18VF/1.webp",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX18VF/1.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JX18VF/2.webp",
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 3* JX18VF with reliable cooling performance'
 },
@@ -2488,11 +2552,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/JP18VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP18VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/JP18VF/2.webp",
-    
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.5T INV 2* JP18VF with reliable cooling performance'
 },
@@ -2511,12 +2575,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/1.webp",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/1.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/2.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/3.png",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AGZ18VF/4.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELEC 1.5T NON INV 3* AGZ18VF with reliable cooling performance'
 },
@@ -2535,13 +2598,11 @@ export const acProducts: ACProduct[] = [
     'Sleep Mode',
     'Energy Saving Mode'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/1.webp",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/1.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/2.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/3.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/4.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/AJZ18VF/5.webp"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELEC 1.5T NON INV 2* AJZ18VF with reliable cooling performance'
 },
@@ -2562,13 +2623,11 @@ export const acProducts: ACProduct[] = [
     'Premium Design',
     'Plasma Air Purifier'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/2.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/3.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/4.webp",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GR22VF/5.webp"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.9T INV 5* GR22VF with premium features for enhanced comfort'
 },
@@ -2590,11 +2649,11 @@ export const acProducts: ACProduct[] = [
     'Plasma Air Purifier',
     'Wi-Fi Connectivity'
   ],
-  image: "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "public/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
-    "public/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
-    "public/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.9T INV 5* GR22VFT with premium features and Wi-Fi connectivity'
 },
@@ -2614,1949 +2673,14 @@ export const acProducts: ACProduct[] = [
     'Energy Saving Mode',
     'Premium Design'
   ],
-  image: "/lovable-uploads/mitsubishi/mitsubishi_elec/GN22VF/1.jpg",
+  image: "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
   images: [
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN22VF/1.jpg",
-    "/lovable-uploads/mitsubishi/mitsubishi_elec/GN22VF/2.webp",
-    
+    "/lovable-uploads/e9e6f48b-038f-4a14-9b10-baead8c7a7e8.png",
+    "/lovable-uploads/b2a1878a-860e-4e17-a78c-34dbf8285f1f.png",
+    "/lovable-uploads/c542376e-7363-4d8d-9340-b22c64e94789.png"
   ],
   description: 'MITSUBISHI ELECTRIC 1.9T INV 4* GN22VF with premium features for enhanced comfort'
 },
-
-// LG AC Products
-{
-  id: 'lg-split-1t-inv-5star-q14enze',
-  type: 'split',
-  brand: 'lg',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: 'US-Q14ENZE',
-  price: 42500,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Clean',
-    'Smart Diagnosis',
-    'Dual Inverter Compressor',
-    'Low Noise Operation'
-  ],
-  image: "/lovable-uploads/lg/US-Q14ENZE/US-Q14ENZE.avif",
-  images: [
-    "/lovable-uploads/lg/US-Q14ENZE/US-Q14ENZE.avif",
-    "/lovable-uploads/lg/US-Q14ENZE/1.avif",
-    "/lovable-uploads/lg/US-Q14ENZE/2.avif",
-    "/lovable-uploads/lg/US-Q14ENZE/3.webp",
-    "/lovable-uploads/lg/US-Q14ENZE/4.jpg",
-    "/lovable-uploads/lg/US-Q14ENZE/5.avif",
-    "/lovable-uploads/lg/US-Q14ENZE/6.avif",
-  ],
-  description: 'LG 1.0T Inverter 5 Star Split AC with advanced cooling technology'
-},
-{
-  id: 'lg-split-1t-inv-3star-q12cnxe',
-  type: 'split',
-  brand: 'lg',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'US-Q12CNXE',
-  price: 36500,
-  features: [
-    'Dual Inverter Compressor',
-    'HD Filter',
-    'Auto Clean',
-    'Low Noise Operation'
-  ],
-  image: "/lovable-uploads/lg/US-Q12CNXE/1.jpg",
-  images: [
-    "/lovable-uploads/lg/US-Q12CNXE/1.jpg",
-    "/lovable-uploads/lg/US-Q12CNXE/2.avif",
-    "/lovable-uploads/lg/US-Q12CNXE/3.avif"
-    
-
-  ],
-  description: 'LG 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'lg-split-1.5t-inv-5star-q19bnze',
-  type: 'split',
-  brand: 'lg',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: 'US-Q19BNZE',
-  price: 46000,
-  features: [
-    'Dual Inverter Compressor',
-    'Anti-Virus Protection',
-    'Smart Diagnosis',
-    'Auto Clean',
-    'Low Noise Operation'
-  ],
-  image: "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png",
-  images: [
-    "/lovable-uploads/19ec5cdd-688a-4aa4-8d7f-df035add0390.png"
-  ],
-  description: 'LG 1.5T Inverter 5 Star Split AC with premium cooling features'
-},
-{
-  id: 'lg-split-1.5t-inv-5star-q19fwze-wifi',
-  type: 'split',
-  brand: 'lg',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: 'US-Q19FWZE (WI-FI)',
-  price: 50500,
-  features: [
-    'Wi-Fi Connectivity',
-    'Dual Inverter Compressor',
-    'Smart ThinQ App Control',
-    'Anti-Virus Protection',
-    'Auto Clean',
-    'Low Noise Operation'
-  ],
-  image: "/lovable-uploads/lg/US-Q19FWZE/1.avif",
-  images: [
-    "/lovable-uploads/lg/US-Q19FWZE/1.avif",
-    "/lovable-uploads/lg/US-Q19FWZE/2.jpg",
-    "/lovable-uploads/lg/US-Q19FWZE/3.jpg",
-    "/lovable-uploads/lg/US-Q19FWZE/4.jpg",
-    "/lovable-uploads/lg/US-Q19FWZE/5.jpg",
-    "/lovable-uploads/lg/US-Q19FWZE/6.jpg",
-    "/lovable-uploads/lg/US-Q19FWZE/7.avif",
-    "/lovable-uploads/lg/US-Q19FWZE/8.avif",
-    "/lovable-uploads/lg/US-Q19FWZE/9.avif",
-    "/lovable-uploads/lg/US-Q19FWZE/10.avif",
-  
-  ],
-  description: 'LG 1.5T Inverter 5 Star Split AC with Wi-Fi connectivity and smart features'
-},
-{
-  id: 'lg-split-1.5t-inv-3star-q18tnxe',
-  type: 'split',
-  brand: 'lg',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'US-Q18TNXE',
-  price: 37800,
-  features: [
-    'Dual Inverter Compressor',
-    'HD Filter',
-    'Auto Clean',
-    'Low Noise Operation'
-  ],
-  image: "/lovable-uploads/lg/US-Q18TNXE/1.avif",
-  images: [
-    "/lovable-uploads/lg/US-Q18TNXE/1.avif",
-    "/lovable-uploads/lg/US-Q18TNXE/2.webp",
-    "/lovable-uploads/lg/US-Q18TNXE/3.jpg"
-  ],
-  description: 'LG 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'lg-split-1.5t-inv-3star-q18kwxe-wifi',
-  type: 'split',
-  brand: 'lg',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'US-Q18KWXE (WI-FI)',
-  price: 41500,
-  features: [
-    'Wi-Fi Connectivity',
-    'Dual Inverter Compressor',
-    'Smart ThinQ App Control',
-    'HD Filter',
-    'Auto Clean'
-  ],
-  image: "/lovable-uploads/lg/US-Q18KWXE/1.avif",
-  images: [
-    "/lovable-uploads/lg/US-Q18KWXE/1.avif",
-    "/lovable-uploads/lg/US-Q18KWXE/2.webp",
-    "/lovable-uploads/lg/US-Q18KWXE/3.jpg",
-    "/lovable-uploads/lg/US-Q18KWXE/4.avif",
-    "/lovable-uploads/lg/US-Q18KWXE/5.webp"
-
-  ],
-  description: 'LG 1.5T Inverter 3 Star Split AC with Wi-Fi connectivity and smart features'
-},
-{
-  id: 'lg-split-2t-inv-3star-q24enxe',
-  type: 'split',
-  brand: 'lg',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: 'US-Q24ENXE',
-  price: 56500,
-  features: [
-    'Dual Inverter Compressor',
-    'HD Filter',
-    'Auto Clean',
-    'Low Noise Operation',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/lg/US-Q24ENXE/1.avif",
-  images: [
-    "/lovable-uploads/lg/US-Q24ENXE/1.avif",
-    "/lovable-uploads/lg/US-Q24ENXE/2.jpg",
-    "/lovable-uploads/lg/US-Q24ENXE/3.jpg",
-    "/lovable-uploads/lg/US-Q24ENXE/4.jpg",
-    "/lovable-uploads/lg/US-Q24ENXE/5.jpg",
-  ],
-  description: 'LG 2.0T Inverter 3 Star Split AC for large rooms with efficient cooling'
-},
-
-// VOLTAS AC Products
-{
-  id: 'voltas-split-1t-inv-5star-125v-vectra-elite',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: '125V VECTRA ELITE',
-  price: 36888,
-  features: [
-    'Inverter Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis',
-    'Sleep Mode'
-  ],
-  image: "/lovable-uploads/voltas/125V_VECTRA_ELITE/1.webp",
-  images: [
-    "/lovable-uploads/voltas/125V_VECTRA_ELITE/1.webp",
-    "/lovable-uploads/voltas/125V_VECTRA_ELITE/2.webp",
-    "/lovable-uploads/voltas/125V_VECTRA_ELITE/3.webp",
-    "/lovable-uploads/voltas/125V_VECTRA_ELITE/4.webp",
-    "/lovable-uploads/voltas/125V_VECTRA_ELITE/5.webp",
-  ],
-  description: 'Voltas 1.0T Inverter 5 Star Split AC with Vectra Elite technology'
-},
-{
-  id: 'voltas-split-1t-inv-3star-123v-vectra-elite',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: '123V VECTRA ELITE',
-  price: 31302,
-  features: [
-    'Inverter Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 1.0T Inverter 3 Star Split AC with Vectra Elite technology'
-},
-{
-  id: 'voltas-split-1t-non-inv-3star-123-vectra-elegant',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'non-inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: '123 VECTRA ELEGANT',
-  price: 32184,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 1.0T Non-Inverter 3 Star Split AC with Vectra Elegant technology'
-},
-{
-  id: 'voltas-split-1.5t-inv-5star-185v-vectra-prism',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: '185V VECTRA PRISM',
-  price: 41494,
-  features: [
-    'Inverter Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis',
-    'Sleep Mode',
-    'High Ambient Cooling'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 1.5T Inverter 5 Star Split AC with Vectra Prism technology'
-},
-{
-  id: 'voltas-split-1.5t-inv-3star-183v-vectra-prime',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: '183V VECTRA PRIME',
-  price: 34732,
-  features: [
-    'Inverter Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 1.5T Inverter 3 Star Split AC with Vectra Prime technology'
-},
-{
-  id: 'voltas-split-1.5t-non-inv-3star-183-vectra-elegant',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'non-inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: '183 VECTRA ELEGANT',
-  price: 37084,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 1.5T Non-Inverter 3 Star Split AC with Vectra Elegant technology'
-},
-{
-  id: 'voltas-split-2t-inv-5star-245v-vectra-plus',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: '245V VECTRA PLUS',
-  price: 56586,
-  features: [
-    'Inverter Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis',
-    'Sleep Mode',
-    'High Ambient Cooling'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 2.0T Inverter 5 Star Split AC with Vectra Plus technology'
-},
-{
-  id: 'voltas-split-2t-inv-3star-243v-vectra-elite',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '243V VECTRA ELITE',
-  price: 45708,
-  features: [
-    'Inverter Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 2.0T Inverter 3 Star Split AC with Vectra Elite technology'
-},
-{
-  id: 'voltas-split-2t-non-inv-3star-243-vectra-plus',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'non-inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '243 VECTRA PLUS',
-  price: 48746,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis',
-    'High Ambient Cooling'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 2.0T Non-Inverter 3 Star Split AC with Vectra Plus technology'
-},
-{
-  id: 'voltas-split-2.5t-inv-3star-303v-vectra-plus',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'inverter',
-  tonnage: '2.5T',
-  starRating: '3★',
-  modelNumber: '303V VECTRA PLUS',
-  price: 72000,
-  features: [
-    'Inverter Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis',
-    'High Ambient Cooling'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 2.5T Inverter 3 Star Split AC with Vectra Plus technology'
-},
-{
-  id: 'voltas-split-3t-non-inv-36-czv-mega',
-  type: 'split',
-  brand: 'voltas',
-  inverter: 'non-inverter',
-  tonnage: '3.0T',
-  starRating: '3★',
-  modelNumber: '36 CZV MEGA',
-  price: 72200,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Dust Filter',
-    'Copper Condenser',
-    'Self Diagnosis',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png",
-  images: [
-    "/lovable-uploads/8ff31e4e-43c0-4f22-ad82-55bca8c06340.png"
-  ],
-  description: 'Voltas 3.0T Non-Inverter Split AC with Mega cooling capacity'
-},
-
-// HISENSE AC Products
-{
-  id: 'hisense-split-1t-inv-5star-as-12tr4r5aj',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: 'AS-12TR4R5AJ',
-  price: 33000,
-  features: [
-    'Inverter Technology',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Sleep Function',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 1.0T Inverter 5 Star Split AC with advanced cooling technology'
-},
-{
-  id: 'hisense-split-1t-inv-3star-as-12tr4r3am',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'AS-12TR4R3AM',
-  price: 29000,
-  features: [
-    'Inverter Technology',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'hisense-split-1t-non-inv-3star-as-12tf4r3aj',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'non-inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'AS-12TF4R3AJ',
-  price: 32000,
-  features: [
-    'Fixed Speed Compressor',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 1.0T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'hisense-split-1.5t-inv-5star-as-18tr4r3ak1',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: 'AS-18TR4R3AK1',
-  price: 38000,
-  features: [
-    'Inverter Technology',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Sleep Function',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 1.5T Inverter 5 Star Split AC with premium cooling features'
-},
-{
-  id: 'hisense-split-1.5t-inv-3star-as-18tr4r3ak1-3star',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'AS-18TR4R3AK1',
-  price: 31500,
-  features: [
-    'Inverter Technology',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'hisense-split-1.5t-non-inv-3star-as-18tf4r3aj1',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'non-inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'AS-18TF4R3AJ1',
-  price: 35000,
-  features: [
-    'Fixed Speed Compressor',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'hisense-split-2t-inv-5star-as-22tr4r5ai4',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: 'AS-22TR4R5AI4',
-  price: 46000,
-  features: [
-    'Inverter Technology',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Sleep Function',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 2.0T Inverter 5 Star Split AC for large rooms with efficient cooling'
-},
-{
-  id: 'hisense-split-2t-inv-3star-as-22tr4r3aj',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: 'AS-22TR4R3AJ',
-  price: 40500,
-  features: [
-    'Inverter Technology',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 2.0T Inverter 3 Star Split AC for large rooms with energy-efficient cooling'
-},
-{
-  id: 'hisense-split-2t-non-inv-3star-as-22tf4r3ai401',
-  type: 'split',
-  brand: 'hisense',
-  inverter: 'non-inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: 'AS-22TF4R3AI401',
-  price: 45000,
-  features: [
-    'Fixed Speed Compressor',
-    'Hi-Density Filter',
-    'Smart Mode',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png",
-  images: [
-    "/lovable-uploads/47dd82e6-33be-4d8e-b007-32a8c50c3375.png"
-  ],
-  description: 'Hisense 2.0T Non-Inverter 3 Star Split AC for large rooms with reliable cooling'
-},
-
-// GODREJ AC Products
-{
-  id: 'godrej-split-1t-inv-5star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: 'GIC 12DINV 5 RWQH',
-  price: 32900,
-  features: [
-    'Inverter Technology',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Sleep Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 1.0T Inverter 5 Star Split AC with advanced cooling technology'
-},
-{
-  id: 'godrej-split-1t-inv-3star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'GIC 12DINV 3 RWQH',
-  price: 28900,
-  features: [
-    'Inverter Technology',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'godrej-split-1.5t-inv-5star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: 'GIC 18DINV 5 RWQH',
-  price: 36500,
-  features: [
-    'Inverter Technology',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Sleep Mode',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 1.5T Inverter 5 Star Split AC with premium cooling features'
-},
-{
-  id: 'godrej-split-1.5t-inv-3star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'GIC 18DINV 3 RWQH',
-  price: 31000,
-  features: [
-    'Inverter Technology',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'godrej-split-1.5t-non-inv-3star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'non-inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'GSC 18NTC3 WTA',
-  price: 35000,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'godrej-split-2t-inv-5star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: 'GIC 24DINV 5 RWQH',
-  price: 49000,
-  features: [
-    'Inverter Technology',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Sleep Mode',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 2.0T Inverter 5 Star Split AC for large rooms with efficient cooling'
-},
-{
-  id: 'godrej-split-2t-inv-3star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: 'GIC 24DINV 3 RWQH',
-  price: 40500,
-  features: [
-    'Inverter Technology',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 2.0T Inverter 3 Star Split AC for large rooms with energy-efficient cooling'
-},
-{
-  id: 'godrej-split-2t-non-inv-3star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'non-inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: 'GSC 24NTC3 WTA',
-  price: 42500,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 2.0T Non-Inverter 3 Star Split AC for large rooms with reliable cooling'
-},
-{
-  id: 'godrej-split-2.5t-inv-3star',
-  type: 'split',
-  brand: 'godrej',
-  inverter: 'inverter',
-  tonnage: '2.5T',
-  starRating: '3★',
-  modelNumber: 'GIC 30DINV 3 RWQH',
-  price: 50000,
-  features: [
-    'Inverter Technology',
-    'Anti-bacterial Filter',
-    'I-Sense Technology',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png",
-  images: [
-    "/lovable-uploads/0695482c-4008-45c0-9890-f4ce6044eaab.png"
-  ],
-  description: 'Godrej 2.5T Inverter 3 Star Split AC for extra large rooms with efficient cooling'
-},
-
-// LLOYD AC Products
-{
-  id: 'lloyd-split-1t-inv-5star-gls12i5fogec',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: 'GLS12I5FOGEC',
-  price: 35000,
-  features: [
-    'Inverter Technology',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Low Noise Operation',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/lloyd/GLS12I5FOGEC/1.jpg",
-  images: [
-     "/lovable-uploads/lloyd/GLS12I5FOGEC/1.jpg",
-      "/lovable-uploads/lloyd/GLS12I5FOGEC/2.jpg",
-       "/lovable-uploads/lloyd/GLS12I5FOGEC/3.webp",
-        "/lovable-uploads/lloyd/GLS12I5FOGEC/4.webp",
-  ],
-  description: 'Lloyd 1.0T Inverter 5 Star Split AC with advanced cooling technology'
-},
-{
-  id: 'lloyd-split-1t-inv-3star-gls12i3fosec',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'GLS12I3FOSEC',
-  price: 31000,
-  features: [
-    'Inverter Technology',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/lloyd/GLS12I3FOSEC/1.jpg",
-  images: [
-    "/lovable-uploads/lloyd/GLS12I3FOSEC/1.jpg",
-    "/lovable-uploads/lloyd/GLS12I3FOSEC/2.jpg",
-    "/lovable-uploads/lloyd/GLS12I3FOSEC/3.webp",
-    "/lovable-uploads/lloyd/GLS12I3FOSEC/4.webp",
-  ],
-  description: 'Lloyd 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'lloyd-split-1t-non-inv-3star-gls12c3xwads',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'non-inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'GLS12C3XWADS',
-  price: 32000,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/lloyd/GLS12C3XWADS/1.avif",
-  images: [
-    "/lovable-uploads/lloyd/GLS12C3XWADS/1.avif",
-    "/lovable-uploads/lloyd/GLS12C3XWADS/2.jpg",
-    "/lovable-uploads/lloyd/GLS12C3XWADS/3.jpg",
-    "/lovable-uploads/lloyd/GLS12C3XWADS/4.jpg",
-    "/lovable-uploads/lloyd/GLS12C3XWADS/5.jpg",
-    "/lovable-uploads/lloyd/GLS12C3XWADS/6.webp",
-    "/lovable-uploads/lloyd/GLS12C3XWADS/7.webp",
-
-  ],
-  description: 'Lloyd 1.0T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'lloyd-split-1.5t-inv-5star-gls18i5fogew',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: 'GLS18I5FOGEW',
-  price: 40000,
-  features: [
-    'Inverter Technology',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Low Noise Operation',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/lloyd/GLS18I5FOGEW/1.jpg",
-  images: [
-    "/lovable-uploads/lloyd/GLS18I5FOGEW/1.jpg",
-    "/lovable-uploads/lloyd/GLS18I5FOGEW/2.jpg",
-    "/lovable-uploads/lloyd/GLS18I5FOGEW/3.webp",
-    "/lovable-uploads/lloyd/GLS18I5FOGEW/4.webp",
-    "/lovable-uploads/lloyd/GLS18I5FOGEW/5.jpeg",
-  ],
-  description: 'Lloyd 1.5T Inverter 5 Star Split AC with premium cooling features'
-},
-{
-  id: 'lloyd-split-1.5t-inv-3star-gls18i3kobbv',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'GLS18I3KOBBV',
-  price: 34500,
-  features: [
-    'Inverter Technology',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png",
-  images: [
-    "/lovable-uploads/61f614fc-2d7d-41ac-8c3a-78da8cf34f77.png"
-  ],
-  description: 'Lloyd 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'lloyd-split-1.5t-non-inv-3star-gls18c3ywads',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'non-inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'GLS18C3YWADS',
-  price: 36500,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Auto Restart'
-  ],
-  image:  "/lovable-uploads/lloyd/GLS18C3YWADS/1.jpg",
-  images: [
-    "/lovable-uploads/lloyd/GLS18C3YWADS/1.jpg",
-    "/lovable-uploads/lloyd/GLS18C3YWADS/2.jpg",
-    "/lovable-uploads/lloyd/GLS18C3YWADS/3.webp",
-    "/lovable-uploads/lloyd/GLS18C3YWADS/4.webp",
-  ],
-  description: 'Lloyd 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'lloyd-split-2t-inv-5star-gls24i5fwgev',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: 'GLS24I5FWGEV',
-  price: 52500,
-  features: [
-    'Inverter Technology',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Low Noise Operation',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/lloyd/GLS24I5FWGEV/1.jpg",
-  images: [
-     "/lovable-uploads/lloyd/GLS24I5FWGEV/1.jpg",
-    "/lovable-uploads/lloyd/GLS24I5FWGEV/2.jpg",
-    "/lovable-uploads/lloyd/GLS24I5FWGEV/3.jpg",
-    "/lovable-uploads/lloyd/GLS24I5FWGEV/4.jpg",
-    "/lovable-uploads/lloyd/GLS24I5FWGEV/5.jpg",
-  ],
-  description: 'Lloyd 2.0T Inverter 5 Star Split AC for large rooms with efficient cooling'
-},
-{
-  id: 'lloyd-split-2t-inv-3star-gls24i3fwsem',
-  type: 'split',
-  brand: 'lloyd',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: 'GLS24I3FWSEM',
-  price: 45500,
-  features: [
-    'Inverter Technology',
-    'Anti-Viral + PM 2.5 Filter',
-    'Golden Fin Evaporator',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/lloyd/GLS24I3FWSEM/1.jpg",
-  images: [
-    "/lovable-uploads/lloyd/GLS24I3FWSEM/1.jpg",
-    "/lovable-uploads/lloyd/GLS24I3FWSEM/2.jpg",
-    "/lovable-uploads/lloyd/GLS24I3FWSEM/3.jpg",
-    "/lovable-uploads/lloyd/GLS24I3FWSEM/4.jpg",
-    "/lovable-uploads/lloyd/GLS24I3FWSEM/5.jpg",
-  ],
-  description: 'Lloyd 2.0T Inverter 3 Star Split AC for large rooms with energy-efficient cooling'
-},
-
-// VESTAR AC Products
-{
-  id: 'vestar-split-1t-inv-3star-vaske123ia15h',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'VASKE123IA15H',
-  price: 28000,
-  features: [
-    'Inverter Technology',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/vestar/VASKE123IA15H/1.jpg",
-  images: [
-    "/lovable-uploads/vestar/VASKE123IA15H/1.jpg",
-    "/lovable-uploads/vestar/VASKE123IA15H/2.jpg",
-    "/lovable-uploads/vestar/VASKE123IA15H/3.jpg",
-  ],
-  description: 'Vestar 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'vestar-split-1t-non-inv-3star-vaskd123fi3g',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'non-inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'VASKD123FI3G',
-  price: 31900,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
-  images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
-  ],
-  description: 'Vestar 1.0T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'vestar-split-1.5t-inv-5star-vaskd185iei2g',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: 'VASKD185IEI2G',
-  price: 36500,
-  features: [
-    'Inverter Technology',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/vestar/VASKD185IEI2G/1.jpg",
-  images: [
-    "/lovable-uploads/vestar/VASKD185IEI2G/1.jpg",
-    "/lovable-uploads/vestar/VASKD185IEI2G/2.jpg",
-    "/lovable-uploads/vestar/VASKD185IEI2G/3.jpg",
-  ],
-  description: 'Vestar 1.5T Inverter 5 Star Split AC with premium cooling features'
-},
-
-{
-  id: 'vestar-split-1.5t-non-inv-3star-vaskd183fei2h',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'non-inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: 'VASKD183FEI2H',
-  price: 35000,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart'
-  ],
-  image: "/lovable-uploads/vestar/VASKD183FEI2H/1.jpg",
-  images: [
-   "/lovable-uploads/vestar/VASKD183FEI2H/1.jpg",
-   "/lovable-uploads/vestar/VASKD183FEI2H/2.jpg",
-   "/lovable-uploads/vestar/VASKD183FEI2H/3.jpg",
-  ],
-  description: 'Vestar 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'vestar-split-2t-inv-5star-vaskd225iei3g',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: 'VASKD225IEI3G',
-  price: 44500,
-  features: [
-    'Inverter Technology',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart',
-    'High Efficiency Cooling'
-  ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
-  images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
-  ],
-  description: 'Vestar 2.0T Inverter 5 Star Split AC for large rooms with efficient cooling'
-},
-{
-  id: 'vestar-split-2t-inv-3star-vake223ia27h',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: 'VAKE223IA27H',
-  price: 40500,
-  features: [
-    'Inverter Technology',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
-  images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
-  ],
-  description: 'Vestar 2.0T Inverter 3 Star Split AC for large rooms with energy-efficient cooling'
-},
-{
-  id: 'vestar-split-2t-non-inv-2star-vaskd222fei3h',
-  type: 'split',
-  brand: 'vestar',
-  inverter: 'non-inverter',
-  tonnage: '2.0T',
-  starRating: '2★',
-  modelNumber: 'VASKD222FEI3H',
-  price: 41000,
-  features: [
-    'Fixed Speed Compressor',
-    'Anti-Dust Filter',
-    'Sleep Mode',
-    'Auto Restart',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png",
-  images: [
-    "/lovable-uploads/f9296fe5-440f-4f69-93f6-77b88ffc76aa.png"
-  ],
-  description: 'Vestar 2.0T Non-Inverter 2 Star Split AC for large rooms with reliable cooling'
-},
-
-// O GENERAL AC Products
-{
-  id: 'o-general-split-1t-inv-5star-12cgtb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: '12CGTB',
-  price: 50200,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-1t-inv-5star-12cgaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '5★',
-  modelNumber: '12CGAA',
-  price: 50200,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-1t-inv-3star-12cpaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: '12CPAA',
-  price: 39790,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'o-general-split-1t-inv-3star-12cpab',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: '12CPAB',
-  price: 39790,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'o-general-split-1.14t-non-inv-3star-14bmaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'non-inverter',
-  tonnage: '1.14T',
-  starRating: '3★',
-  modelNumber: '14BMAA',
-  price: 42150,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.14T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'o-general-split-1.5t-inv-5star-18cgtb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: '18CGTB',
-  price: 63490,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.5T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-1.5t-inv-5star-18cgaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: '18CGAA',
-  price: 63490,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.5T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-1.5t-inv-5star-18cetb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '5★',
-  modelNumber: '18CETB',
-  price: 67250,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis',
-    'Premium Model'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.5T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-1.5t-inv-3star-18cpab',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: '18CPAB',
-  price: 50210,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'o-general-split-1.5t-inv-3star-18cnaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: '18CNAA',
-  price: 47390,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.5T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'o-general-split-1.5t-non-inv-3star-18bmaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'non-inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: '18BMAA',
-  price: 53050,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'o-general-split-1.5t-non-inv-3star-18buta',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'non-inverter',
-  tonnage: '1.5T',
-  starRating: '3★',
-  modelNumber: '18BUTA',
-  price: 57790,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient',
-    'Premium Model'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 1.5T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'o-general-split-2t-inv-5star-24cgtb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: '24CGTB',
-  price: 77690,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-2t-inv-5star-24ggaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: '24GGAA',
-  price: 77690,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-2t-inv-5star-24ceta',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '5★',
-  modelNumber: '24CETA',
-  price: 81450,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis',
-    'Premium Model'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.0T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'o-general-split-2t-inv-3star-24cpaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '24CPAA',
-  price: 63428,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'o-general-split-2t-inv-3star-24cpab',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '24CPAB',
-  price: 63428,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'o-general-split-2t-non-inv-3star-24bmaa',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'non-inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '24BMAA',
-  price: 67250,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.0T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'o-general-split-2t-non-inv-3star-24buta',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'non-inverter',
-  tonnage: '2.0T',
-  starRating: '3★',
-  modelNumber: '24BUTA',
-  price: 72000,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient',
-    'Premium Model'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.0T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'o-general-split-2.5t-inv-4star-30ceb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '2.5T',
-  starRating: '4★',
-  modelNumber: '30CEB',
-  price: 102310,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 2.5T Inverter 4 Star Split AC with premium features for large spaces'
-},
-{
-  id: 'o-general-split-3t-inv-5star-36ceb',
-  type: 'split',
-  brand: 'o-general',
-  inverter: 'inverter',
-  tonnage: '3.0T',
-  starRating: '5★',
-  modelNumber: '36CEB',
-  price: 123190,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png",
-  images: [
-    "/lovable-uploads/1524253e-afab-4038-9a4e-2af8f24418c1.png"
-  ],
-  description: 'O GENERAL 3.0T Inverter 5 Star Split AC with premium features for large spaces'
-},
-
-// MITSUBISHI HEAVY INDUSTRIES AC Products
-{
-  id: 'mitsubishi-heavy-1.1t-inv-5star-srk13yxs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '1.1T',
-  starRating: '5★',
-  modelNumber: 'SRK13YXS',
-  price: 54040,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.1T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'mitsubishi-heavy-1t-inv-3star-srk13yym',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '1.0T',
-  starRating: '3★',
-  modelNumber: 'SRK13YYM',
-  price: 49200,
-  features: [
-    'Digital Inverter Technology',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.0T Inverter 3 Star Split AC with energy-efficient cooling'
-},
-{
-  id: 'mitsubishi-heavy-1.1t-non-inv-2star-srk13crs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.1T',
-  starRating: '2★',
-  modelNumber: 'SRK13CRS',
-  price: 47440,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.1T Non-Inverter 2 Star Split AC with reliable cooling'
-},
-{
-  id: 'mitsubishi-heavy-1.3t-non-inv-2star-srk15cxs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.3T',
-  starRating: '2★',
-  modelNumber: 'SRK15CXS',
-  price: 49640,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.3T Non-Inverter 2 Star Split AC with reliable cooling'
-},
-{
-  id: 'mitsubishi-heavy-1.6t-non-inv-3star-srk20cxs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.6T',
-  starRating: '3★',
-  modelNumber: 'SRK20CXS',
-  price: 59760,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.6T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'mitsubishi-heavy-1.6t-non-inv-3star-srk20css',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.6T',
-  starRating: '3★',
-  modelNumber: 'SRK20CSS',
-  price: 61520,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient',
-    'Premium Model'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.6T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'mitsubishi-heavy-1.8t-inv-5star-srk20yym',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '1.8T',
-  starRating: '5★',
-  modelNumber: 'SRK20YYM',
-  price: 75160,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.8T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'mitsubishi-heavy-1.95t-non-inv-2star-srk24cw',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.95T',
-  starRating: '2★',
-  modelNumber: 'SRK24CW',
-  price: 69000,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.95T Non-Inverter 2 Star Split AC with reliable cooling'
-},
-{
-  id: 'mitsubishi-heavy-1.95t-non-inv-3star-srk25cwx',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '1.95T',
-  starRating: '3★',
-  modelNumber: 'SRK25CWX',
-  price: 74280,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient',
-    'Premium Model'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 1.95T Non-Inverter 3 Star Split AC with reliable cooling'
-},
-{
-  id: 'mitsubishi-heavy-2.1t-inv-4star-srk24yym',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '2.1T',
-  starRating: '4★',
-  modelNumber: 'SRK24YYM',
-  price: 90991,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 2.1T Inverter 4 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'mitsubishi-heavy-2.2t-inv-5star-srk24yvs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '2.2T',
-  starRating: '5★',
-  modelNumber: 'SRK24YVS',
-  price: 101560,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis',
-    'Premium Model'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 2.2T Inverter 5 Star Split AC with premium features for enhanced comfort'
-},
-{
-  id: 'mitsubishi-heavy-2.2t-non-inv-2star-srk24yvs',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'non-inverter',
-  tonnage: '2.2T',
-  starRating: '2★',
-  modelNumber: 'SRK24YVS',
-  price: 77800,
-  features: [
-    'Fixed Speed Compressor',
-    'Auto Restart',
-    'Sleep Mode',
-    'Energy Efficient'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 2.2T Non-Inverter 2 Star Split AC with reliable cooling'
-},
-{
-  id: 'mitsubishi-heavy-3t-inv-4star-srk100ya',
-  type: 'split',
-  brand: 'mitsubishi-heavy',
-  inverter: 'inverter',
-  tonnage: '3.0T',
-  starRating: '4★',
-  modelNumber: 'SRK100YA',
-  price: 136760,
-  features: [
-    'Digital Inverter Technology',
-    'Plasma Air Purifier',
-    'Auto Restart',
-    'Sleep Mode',
-    'Smart Diagnosis',
-    'High Capacity Cooling'
-  ],
-  image: "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png",
-  images: [
-    "/lovable-uploads/2b6a0337-071e-49f0-8853-b8d4ad5c5f6d.png"
-  ],
-  description: 'MITSUBISHI HEAVY 3.0T Inverter 4 Star Split AC with premium features for large spaces'
-}
 ];
 
 // Helper functions for filtering products

@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import SelectionLayout from "@/components/SelectionLayout";
 import SelectionCard from "@/components/SelectionCard";
 import { brands, acTypes, ACType } from "@/lib/ac-selection-data";
+import { getAvailableBrands } from "@/lib/utils";
 
 const BrandSelectionPage = () => {
   const { type } = useParams<{ type: string }>();
@@ -11,6 +12,10 @@ const BrandSelectionPage = () => {
   
   // Find the current AC type name for display
   const currentType = acTypes.find(t => t.id === acType)?.name || "AC";
+  
+  // Get only brands that have products available for this AC type
+  const availableBrandIds = getAvailableBrands(acType);
+  const availableBrands = brands.filter(brand => availableBrandIds.includes(brand.id));
   
   // Scroll to top on component mount
   useEffect(() => {
@@ -24,7 +29,7 @@ const BrandSelectionPage = () => {
       currentStep={1}
     >
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-        {brands.map((brand) => (
+        {availableBrands.map((brand) => (
           <SelectionCard
             key={brand.id}
             image={brand.logo}
