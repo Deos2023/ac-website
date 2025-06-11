@@ -35,8 +35,9 @@ const WhatsAppInquiry = ({ productName, modelNumber, price, className }: WhatsAp
   });
 
   const onSubmit = (values: z.infer<typeof formSchema>) => {
-    // Format the inquiry message
-    const message = `Hello! I would like to inquire about ${productName} (${modelNumber}) priced at ₹${price.toLocaleString()}. My name is ${values.name}. Please contact me for more details.`;
+    // Format the inquiry message with conditional model number
+    const modelInfo = modelNumber && modelNumber !== 'N/A' ? `(${modelNumber})` : '';
+    const message = `Hello! I would like to inquire about ${productName} ${modelInfo} priced at ₹${price.toLocaleString()}. My name is ${values.name}. Please contact me for more details.`;
     
     // Encode the message for WhatsApp URL
     const encodedMessage = encodeURIComponent(message);
@@ -77,7 +78,9 @@ const WhatsAppInquiry = ({ productName, modelNumber, price, className }: WhatsAp
           </p>
           <div className="bg-gray-50 p-3 rounded-lg">
             <p className="font-medium">{productName}</p>
-            <p className="text-sm text-gray-500">Model: {modelNumber}</p>
+            {modelNumber && modelNumber !== 'N/A' && (
+              <p className="text-sm text-gray-500">Model: {modelNumber}</p>
+            )}
             <p className="text-lg font-bold mt-1">₹{price.toLocaleString()}</p>
           </div>
           <Form {...form}>

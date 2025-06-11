@@ -50,6 +50,7 @@ export function getAvailableStarRatings(acType: ACType, brand: Brand, inverter: 
       product.tonnage === tonnage
     )
     .map(product => product.starRating)
+    .filter(rating => rating !== undefined && rating !== null);
   
   // Remove duplicates
   return [...new Set(availableStarRatings)];

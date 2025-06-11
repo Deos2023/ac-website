@@ -28,13 +28,13 @@ const ProductResultsPage = () => {
   const currentInverter = inverterTypes.find(i => i.id === inverterType)?.name || "Type";
   
   useEffect(() => {
-    // Filter products based on selection
+    // Filter products based on selection, making starRating optional
     const products = acProducts.filter(product => 
       product.type === acType && 
       product.brand === brandId && 
       product.inverter === inverterType && 
       product.tonnage === tonnageValue && 
-      product.starRating === starRating
+      (starRating === "" || product.starRating === "" || product.starRating === starRating)
     );
     
     setFilteredProducts(products);
